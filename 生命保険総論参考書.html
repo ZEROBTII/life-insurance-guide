@@ -1,0 +1,2581 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>生命保険講座「生命保険総論」完全攻略ガイド（2021～2024年度過去問分析）</title>
+<style>
+:root {
+    --primary-color: #036;
+    --secondary-color: #4a7a9c;
+    --background-color: #f4f7f9;
+    --text-color: #333;
+    --border-color: #dce3e8;
+    --header-bg: #fff;
+    --card-bg: #fff;
+    --code-bg: #eef2f5;
+    --link-color: #0056b3;
+    --correct-answer-bg: #e6ffed;
+    --correct-answer-border: #b7e4c7;
+    --explanation-bg: #f8f9fa;
+    --explanation-border: #e9ecef;
+}
+body {
+    font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, Osaka, "MS PGothic", sans-serif;
+    line-height: 1.8;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 24px 40px;
+    background-color: #fff;
+}
+.cover-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    background-color: #fff;
+}
+.cover-page h1 {
+    font-size: 3.2em;
+    color: var(--primary-color);
+    margin-bottom: 0.5em;
+    line-height: 1.4;
+}
+.cover-page .subtitle {
+    font-size: 1.5em;
+    color: var(--secondary-color);
+    margin-bottom: 2em;
+}
+.cover-page .author {
+    font-size: 1em;
+    color: #666;
+    margin-top: 4em;
+}
+main {
+    padding: 24px 40px;
+}
+h1 {
+    font-size: 28px;
+    margin-top: 24px;
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 22px;
+}
+h3 {
+    font-size: 20px;
+}
+h4 {
+    font-size: 18px;
+}
+h5 {
+    font-size: 16px;
+}
+img {
+    display: block;
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 280px;
+    margin: 1em auto;
+    border-radius: 8px;
+}
+main > h2 {
+    font-size: 1.8em;
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--secondary-color);
+    padding-bottom: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.chapter {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    margin-bottom: 30px;
+    padding: 25px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+.chapter > h3 {
+    font-size: 1.5em;
+    color: var(--secondary-color);
+    margin-top: 0;
+    margin-bottom: 25px;
+    padding-left: 15px;
+    border-left: 5px solid var(--primary-color);
+}
+.chapter-summary {
+    background-color: #fdfaf2;
+    border: 1px solid #f0e6d2;
+    border-left: 5px solid #e6c381;
+    padding: 25px;
+    margin: 25px 0;
+    border-radius: 8px;
+}
+.chapter-summary h3 {
+    margin-top: 0;
+    color: #a47d3a;
+    font-size: 1.4em;
+    border-bottom: 1px solid #f0e6d2;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.chapter-summary ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.chapter-summary li {
+    margin-bottom: 12px;
+    line-height: 1.7;
+    padding-left: 1.5em;
+    position: relative;
+}
+.chapter-summary li::before {
+    content: '✔';
+    position: absolute;
+    left: 0;
+    color: #a47d3a;
+    font-weight: bold;
+}
+.question-block {
+    margin-bottom: 25px;
+    border-top: 1px dashed var(--border-color);
+    padding-top: 25px;
+}
+.question-block:first-of-type {
+    border-top: none;
+    padding-top: 0;
+}
+.question-title {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+.question-text, .question-options, .word-group {
+    background-color: var(--explanation-bg);
+    border: 1px solid var(--explanation-border);
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.question-text p, .question-options p {
+    margin: 0 0 10px 0;
+}
+.question-text p:last-child, .question-options p:last-child {
+    margin-bottom: 0;
+}
+.word-group table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.word-group th, .word-group td {
+    border: 1px solid var(--border-color);
+    padding: 8px;
+    text-align: left;
+}
+details {
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    margin-top: 15px;
+}
+summary {
+    font-weight: bold;
+    padding: 12px 15px;
+    background-color: #e9ecef;
+    cursor: pointer;
+    outline: none;
+    color: var(--primary-color);
+}
+summary:hover {
+    background-color: #dde2e6;
+}
+.answer-explanation {
+    padding: 20px;
+    border-top: 1px solid var(--border-color);
+}
+.correct-answer {
+    background-color: var(--correct-answer-bg);
+    border: 1px solid var(--correct-answer-border);
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.correct-answer strong {
+    color: #2b6b43;
+}
+.explanation {
+    background-color: var(--explanation-bg);
+    border-left: 4px solid var(--secondary-color);
+    padding: 15px;
+    margin-top: 10px;
+}
+.explanation h5 {
+    margin-top: 0;
+    color: var(--primary-color);
+}
+.explanation ul {
+    padding-left: 20px;
+}
+.explanation li {
+    margin-bottom: 8px;
+}
+.toc {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+.toc h2 {
+    margin-top: 0;
+    color: var(--primary-color);
+}
+.toc ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.toc > ul > li {
+    font-weight: bold;
+    margin-top: 15px;
+}
+.toc ul ul {
+    padding-left: 20px;
+    font-weight: normal;
+}
+.toc ul ul li {
+    margin-top: 5px;
+}
+.toc a {
+    text-decoration: none;
+    color: var(--link-color);
+}
+.toc a:hover {
+    text-decoration: underline;
+}
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    font-size: 0.9em;
+    color: #666;
+    border-top: 1px solid var(--border-color);
+}
+.source-ref {
+    font-size: 0.85em;
+    color: #777;
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+}
+@media print {
+    @page {
+        size: A4;
+        margin: 2cm;
+    }
+    body {
+        background-color: #fff;
+        color: #000;
+        font-size: 10pt;
+        font-family: "Hiragino Mincho ProN", "ヒラギノ明朝 ProN W3", "MS PMincho", "MS 明朝", serif;
+    }
+    .container {
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+        margin: 0;
+        box-shadow: none;
+    }
+    .cover-page {
+        display: block;
+        text-align: center;
+        padding-top: 20vh;
+        page-break-after: always;
+        border: none;
+        background: none;
+    }
+    .cover-page h1 { font-size: 28pt; color: #000; }
+    .cover-page .subtitle { font-size: 16pt; color: #000; }
+    .cover-page .author { font-size: 11pt; color: #000; }
+    .toc {
+        display: block;
+        page-break-after: always;
+        border: none;
+        box-shadow: none;
+    }
+    main > h2 {
+        page-break-before: always;
+        page-break-after: avoid;
+        color: #000;
+        border-bottom: 2px solid #000;
+    }
+    .chapter-summary {
+        page-break-after: always;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-left: 3px solid #666;
+    }
+    .chapter-summary h3 {
+        color: #000;
+        border-bottom: 1px solid #999;
+    }
+    .chapter {
+        border: none;
+        box-shadow: none;
+        padding: 0;
+        margin-bottom: 20px;
+        page-break-inside: avoid;
+    }
+    details, .question-block {
+        page-break-inside: avoid;
+    }
+    details[open] {
+        border: 1px solid #ccc;
+    }
+    summary {
+        background-color: #eee;
+    }
+    .correct-answer {
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+    }
+    .explanation {
+        background-color: #f9f9f9;
+        border-left: 2px solid #999;
+    }
+    a {
+        text-decoration: none;
+        color: #000;
+    }
+    footer {
+        border: none;
+    }
+}
+@media only screen and (max-device-width: 768px) {
+    body {
+        padding: 0;
+        margin: 0;
+        font-family: PingFang SC;
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    .container {
+        padding: 0;
+        margin: 0;
+        box-shadow: none;
+    }
+    main {
+        padding: 16px 20px 30px;
+    }
+    .cover-page {
+        min-height: 90vh;
+    }
+    .cover-page h1 { font-size: 2.5em; }
+    .cover-page .subtitle { font-size: 1.2em; }
+    h1, h2, h3, h4 {
+        font-family: PingFang SC;
+    }
+    h1 {
+        font-size: 1.87em;
+        line-height: 1.6;
+        margin-bottom: 0.5em;
+        text-align: center;
+    }
+    h2 {
+        font-size: 1.6em;
+        font-weight: 600;
+        margin-top: 1.3em;
+        margin-bottom: 0.8em;
+        border-bottom: 1px solid #eee;
+        padding-bottom: 0.5em;
+    }
+    h3 {
+        font-size: 1.2em;
+        font-weight: 600;
+        margin-top: 1em;
+        margin-bottom: 0.6em;
+    }
+    h4 {
+        font-size: 1.1em;
+        font-weight: 500;
+        margin-top: 1em;
+        margin-bottom: 0.5em;
+        font-style: normal;
+    }
+    h5 {
+        font-size: 1em;
+        font-weight: 500;
+        margin-bottom: 1.2em;
+    }
+    ul, ol {
+        font-size: 1em;
+        font-weight: 400;
+        margin-bottom: 1.2em;
+        line-height: 1.8;
+    }
+    p {
+        font-size: 1em;
+        line-height: 1.8;
+        font-weight: 400;
+        margin-top: 0.8em;
+        margin-bottom: 0.8em;
+    }
+    blockquote {
+        padding: 1em 1.2em;
+    }
+    blockquote p {
+        margin: 0;
+    }
+    figcaption {
+        margin-top: 0.5em;
+        font-size: 0.8em;
+        font-weight: 400;
+        text-align: center;
+        font-style: normal;
+        color: #7F8896;
+    }
+    img {
+        display: block;
+        overflow: hidden;
+        max-width: 100%;
+        max-height: 335px;
+        margin: 1em auto;
+        border-radius: 8px;
+    }
+}
+</style>
+</head>
+<body>
+<div class="cover-page">
+<h1 id="section-1">生命保険講座<br/>「生命保険総論」<br/>完全攻略ガイド</h1>
+<p class="subtitle">2021～2024年度 過去問題分析・解説集</p>
+<p class="author">最終更新日: 2025-08-20</p>
+</div>
+<div class="container">
+<main>
+<div class="toc">
+<h2 id="section-1">目次</h2>
+<ul>
+<li><a href="#section-chapter1">第1章 生命保険の基本概念</a>
+<ul>
+<li><a href="#section-section1-1">1-1. 危険と保険</a></li>
+<li><a href="#section-section1-2">1-2. 生命保険の対象となる危険とその特色</a></li>
+<li><a href="#section-section1-3">1-3. 保険の歴史的発展</a></li>
+</ul>
+</li>
+<li><a href="#section-chapter2">第2章 生命保険契約</a>
+<ul>
+<li><a href="#section-section2-1">2-1. 契約の法的性質</a></li>
+<li><a href="#section-section2-2">2-2. 契約の当事者と要素</a></li>
+<li><a href="#section-section2-3">2-3. 生命保険契約の特殊性と保険約款</a></li>
+<li><a href="#section-section2-4">2-4. 保険の始期</a></li>
+</ul>
+</li>
+<li><a href="#section-chapter3">第3章 生命保険の数理</a>
+<ul>
+<li><a href="#section-section3-1">3-1. 保険料の仕組み</a></li>
+<li><a href="#section-section3-2">3-2. 死亡表</a></li>
+<li><a href="#section-section3-3">3-3. 責任準備金</a></li>
+<li><a href="#section-section3-4">3-4. 契約者配当（剰余金の分配）</a></li>
+</ul>
+</li>
+<li><a href="#section-chapter4">第4章 生命保険商品</a>
+<ul>
+<li><a href="#section-section4-1">4-1. 生命保険商品の基本型</a></li>
+<li><a href="#section-section4-2">4-2. 団体保険・団体年金保険</a></li>
+<li><a href="#section-section4-3">4-3. その他の保険商品と関連制度</a></li>
+</ul>
+</li>
+<li><a href="#section-chapter5">第5章 生命保険会社の経営</a>
+<ul>
+<li><a href="#section-section5-1">5-1. 危険の選択（アンダーライティング）</a></li>
+<li><a href="#section-section5-2">5-2. 資産運用の原則と現状</a></li>
+<li><a href="#section-section5-3">5-3. 生命保険会社の組織形態</a></li>
+<li><a href="#section-section5-4">5-4. 業界共通システム</a></li>
+</ul>
+</li>
+<li><a href="#section-chapter6">第6章 生命保険と社会</a>
+<ul>
+<li><a href="#section-section6-1">6-1. 国民経済における生命保険</a></li>
+<li><a href="#section-section6-2">6-2. 社会構造の変化と生命保険</a></li>
+<li><a href="#section-section6-3">6-3. 社会保障制度</a></li>
+<li><a href="#section-section6-4">6-4. 生活設計と生命保険</a></li>
+</ul>
+</li>
+<li><a href="#section-chapter7">第7章 監督・規制と消費者保護</a>
+<ul>
+<li><a href="#section-section7-1">7-1. 保険業法と監督行政</a></li>
+<li><a href="#section-section7-2">7-2. 保険募集と関連法規</a></li>
+<li><a href="#section-section7-3">7-3. 消費者保護制度</a></li>
+<li><a href="#section-section7-4">7-4. 生命保険会社の経営破綻と契約者保護</a></li>
+</ul>
+</li>
+<li><a href="#section-chapter8">第8章 諸外国の生命保険事業</a>
+<ul>
+<li><a href="#section-section8-1">8-1. イギリスの保険史</a></li>
+<li><a href="#section-section8-2">8-2. アメリカの保険史と金融革命</a></li>
+</ul>
+</li>
+<li><a href="#section-chapter9">第9章 共済・損害保険・その他</a>
+<ul>
+<li><a href="#section-section9-1">9-1. 共済と保険</a></li>
+<li><a href="#section-section9-2">9-2. 少額短期保険業</a></li>
+<li><a href="#section-section9-3">9-3. 損害保険</a></li>
+<li><a href="#section-section9-4">9-4. 金融業界の動向（銀行・証券）</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<h2 id="section-chapter1">第1章 生命保険の基本概念</h2>
+<div class="chapter-summary">
+<h3>この章のまとめ</h3>
+<ul>
+<li><strong>危険対策と保険</strong>：保険は、危険発生後の「経済的損失」を補填する「危険のファイナンシング」であり、危険自体を防ぐ「危険のコントロール」とは区別される。</li>
+<li><strong>保険の対象となる危険</strong>：個人の制御を超え、多数集めることで発生率が予測可能（大数の法則）な偶然の事故による経済的損失が対象となる。</li>
+<li><strong>生命保険の特色</strong>：人の生死を対象とし、損害額の算定が困難なため、あらかじめ定めた金額を支払う「定額保険」である。ニーズが潜在的であること、長期契約で平準保険料方式が採られるため多額の責任準備金が積み立てられ、金融機関としての側面を持つ。</li>
+<li><strong>歴史的発展</strong>：近代保険の源流は、中世ヨーロッパの「ギルド」における相互扶助に遡る。その後、海上貿易のリスクをカバーする「冒険貸借」を経て、確率論・統計学の発達を背景に、科学的な生命保険が誕生した。</li>
+</ul>
+</div>
+<div class="chapter">
+<h3 id="section-section1-1">1-1. 危険と保険</h3>
+<div class="question-block">
+<p class="question-title">［危険対策と保険］</p>
+<div class="question-text">
+<p>次の文章について、正しい場合には「正」、誤っている場合には「誤」を選んでください。</p>
+<p>危険対策は保険と密接な関係があるが、保険は危険自体を防止、回避するための危険対策ではなく、危険が現実化した時に生じる経済的損失、負担を軽減、回復するための危険対策である。</p>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong> 正
+                            </div>
+<div class="explanation">
+<h5>解説</h5>
+<p>記述の通りです。保険の役割を正しく理解することが重要です。</p>
+<ul>
+<li><strong>危険のコントロール（危険自体への対策）</strong>：危険の発生を未然に防いだり（例：防災訓練、健康診断）、発生した際の損害を最小限に抑えたりする（例：スプリンクラー設置）対策です。</li>
+<li><strong>危険のファイナンシング（経済的損失への対策）</strong>：危険が現実化した（事故が発生した）後の経済的な損失を補うための対策です。保険はこの「危険のファイナンシング」に分類されます。</li>
+</ul>
+<p>したがって、保険は火災や病気そのものを防ぐわけではなく、それによって生じる経済的な損失をカバーするための金融的な手段です。</p>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2024年度 フォームB 問31</span>
+</div>
+<div class="question-block">
+<p class="question-title">［保険の対象となる危険の種類について］</p>
+<div class="question-text">
+<p>次の文章のうち、誤っているものを１つ選んでください。</p>
+<p>ア．保険の対象となる危険の種類の一つとして、「その発生を防止しようとしても、ある程度以上は不可能であるという意味で経済主体による制御を超えていないもの」がある。</p>
+<p>イ．保険の対象となる危険について、保険契約者は、保険を付することによって保険料支出の形で危険により被る損失の塡補を行う。被保険体（保険事故の対象物件または対象者）の被った危険から派生する経済的損失は保険者に肩代わりされる。</p>
+<p>ウ．保険者の危険引受けが可能となるためには、同様な危険を多数引き受けることにより、危険の発生頻度の変動幅を縮小させ、平均経験率を得る必要がある。危険により被る経済的損失が保険金額として貨幣で計算され、危険の程度が危険度として数量化されれば、保険金額と危険度の積として危険評価額は数量化可能となる。</p>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong> ア
+                            </div>
+<div class="explanation">
+<h5>解説</h5>
+<ul>
+<li><strong>ア（誤り）</strong>：保険の対象となる危険は、個々の経済主体（個人や企業）の<strong>制御を超えている</strong>ことが前提となります。「制御を超えていないもの」という記述が誤りです。制御可能な危険（例えば、故意による事故）は、モラルリスクを誘発するため、通常は保険の対象外です。</li>
+<li><strong>イ（正しい）</strong>：保険の基本的な仕組みを説明しています。保険契約者は保険料を支払うことで、万一の際の経済的損失を保険者に移転します。</li>
+<li><strong>ウ（正しい）</strong>：「大数の法則」と保険料計算の基本を説明しています。多数の同質の危険を集めることで、全体の損失発生率が安定し、科学的な保険料計算が可能になります。危険評価額は「保険金額 × 危険度（発生確率）」で算出されます。</li>
+</ul>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2022年度 フォームA 問26</span>
+</div>
+<div class="question-block">
+<p class="question-title">［危険の種類］</p>
+<div class="question-text">
+<p>次の文章について、下線部ＡまたはＢのいずれかが誤っている場合と、Ａ・Ｂともに正しい場合とがあります。ＡまたはＢのいずれかが誤っている場合は、誤っている記号と代わって入るものが最も適切な組み合わせを選択してください。Ａ・Ｂともに正しい場合は、記号Ｃを選択してください。</p>
+<p>保険者の危険引受けが可能となるためには、同様な危険を多数引き受けることにより、危険の発生頻度の変動幅を(A)<u>縮小</u>させ、(B)<u>平均経験率</u>を得る必要がある。</p>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong> オ．Ｃ（Ａ・Ｂともに正しい）
+                            </div>
+<div class="explanation">
+<h5>解説</h5>
+<p>この文章は、保険事業が成立するための基本原則である「大数の法則」について述べています。</p>
+<ul>
+<li><strong>(A) 縮小</strong>：正しい。多数の同質の危険を集める（＝保険契約を多く引き受ける）ことで、個々の偶然によるバラつきが相殺され、集団全体としての損失発生率の変動幅は小さく（縮小）なります。これにより、損失の予測が安定します。</li>
+<li><strong>(B) 平均経験率</strong>：正しい。多数のデータを観察することで得られる、安定した発生率（確率）のことを指します。保険会社は過去のデータからこの平均経験率を算出し、将来の保険金支払いを予測して保険料を計算します。</li>
+</ul>
+<p>したがって、A、Bともに正しい記述です。</p>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2023年度 フォームA 問41</span>
+</div>
+</div>
+<div class="chapter">
+<h3 id="section-section1-2">1-2. 生命保険の対象となる危険とその特色</h3>
+<div class="question-block">
+<p class="question-title">［生命保険の対象となる危険とその特色－①］</p>
+<div class="question-text">
+<p>文中の空欄［ １ ］～［ ５ ］に入る最も適切なものを選んでください。</p>
+<p>保険契約に関する法制については、従来は［ １ ］の中で規定されていたが、［ １ ］現代化の流れを受けて保険法が成立し、2010 年（平成22 年）に施行された。</p>
+<p>生命保険の対象となる危険には、一般的には「死亡危険」と「生存危険」があるが、その危険の発生から被る［ ２ ］危険の担保となるのが生命保険である。</p>
+<p>死亡危険は文字どおりのものであるが、高度障害のように死亡という事象が生じていなくとも［ ２ ］死亡と位置づけ、契約上は死亡と同じ扱いをする場合もある。</p>
+<p>死亡保険契約にあっては、人の生死に伴う［ ３ ］を把握することは一般的に難しい。また、人の価値に対する認識は［ ４ ］な評価に依存しがちである。そのため、死亡保険の保障額はあらかじめ［ ５ ］に定める形がとられている。また、死亡危険は、その発生に中間がなく、いわば０か１の事象であり、事象の発生により保険契約が終了するという特色がある。</p>
+<p>生存危険とは、生存することにより［ ２ ］損失を引き起こす危険をいい、この危険に対応する生命保険契約には一定期間後の生存を条件とする一時金給付あるいは年金給付がある。</p>
+<div class="word-group">
+<table>
+<tr><td>ア． 社会的</td><td>イ． 損害額</td></tr>
+<tr><td>ウ． 客観的</td><td>エ． 一定額</td></tr>
+<tr><td>オ． 商法</td><td>カ． 賠償額</td></tr>
+<tr><td>キ． 主観的</td><td>ク． 填補額</td></tr>
+<tr><td>ケ． 民法</td><td>コ． 経済的</td></tr>
+</table>
+</div>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong><br/>
+                                ［ １ ］：オ．商法<br/>
+                                ［ ２ ］：コ．経済的<br/>
+                                ［ ３ ］：イ．損害額<br/>
+                                ［ ４ ］：キ．主観的<br/>
+                                ［ ５ ］：エ．一定額
+                            </div>
+<div class="explanation">
+<h5>完成した文章</h5>
+<p>保険契約に関する法制については、従来は<strong>商法</strong>の中で規定されていたが、<strong>商法</strong>現代化の流れを受けて保険法が成立し、2010 年（平成22 年）に施行された。</p>
+<p>生命保険の対象となる危険には、一般的には「死亡危険」と「生存危険」があるが、その危険の発生から被る<strong>経済的</strong>危険の担保となるのが生命保険である。</p>
+<p>死亡危険は文字どおりのものであるが、高度障害のように死亡という事象が生じていなくとも<strong>経済的</strong>死亡と位置づけ、契約上は死亡と同じ扱いをする場合もある。</p>
+<p>死亡保険契約にあっては、人の生死に伴う<strong>損害額</strong>を把握することは一般的に難しい。また、人の価値に対する認識は<strong>主観的</strong>な評価に依存しがちである。そのため、死亡保険の保障額はあらかじめ<strong>一定額</strong>に定める形がとられている。また、死亡危険は、その発生に中間がなく、いわば０か１の事象であり、事象の発生により保険契約が終了するという特色がある。</p>
+<p>生存危険とは、生存することにより<strong>経済的</strong>損失を引き起こす危険をいい、この危険に対応する生命保険契約には一定期間後の生存を条件とする一時金給付あるいは年金給付がある。</p>
+<h5>解説</h5>
+<ul>
+<li><strong>［ １ ］商法</strong>：2010年に保険法が施行されるまで、保険契約に関するルールは商法第二編第十章「保険」に定められていました。</li>
+<li><strong>［ ２ ］経済的</strong>：生命保険は、人の死亡や生存、病気やケガといった事象そのものではなく、それに伴って発生する「経済的な」損失や負担を保障するものです。</li>
+<li><strong>［ ３ ］損害額</strong>：人の生命の価値を金銭で客観的に評価（損害額を算定）することは極めて困難です。この点が、損害額が比較的算定しやすい損害保険との大きな違いです。</li>
+<li><strong>［ ４ ］主観的</strong>：人の価値は、家族構成や個人の考え方など、主観的な要素に大きく左右されます。</li>
+<li><strong>［ ５ ］一定額</strong>：人の生命の損害額を客観的に算定することが困難なため、生命保険では契約時に当事者間の合意によってあらかじめ保険金額を「一定額」で定めておき、保険事故発生時にはその定額を支払います。これを「定額保険」といいます。</li>
+</ul>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2024年度 フォームC 問1-5</span>
+</div>
+<div class="question-block">
+<p class="question-title">［生命保険の対象となる危険とその特色－②］</p>
+<div class="question-text">
+<p>文中の空欄［ ６ ］～［ 10 ］に入る最も適切なものを選んでください。</p>
+<p>傷害・疾病危険に関しては、従来は明確な規定がなかったが、保険法においては「［ ６ ］」として典型契約としての地位が与えられた。</p>
+<p>生死、特に死亡にかかわる損失を保障する生命保険商品の購入は、消費者にとってはあまり積極的に検討したい性質のものではないため、生命保険に対するニーズは［ ７ ］である傾向がある。よって、保険者が加入勧奨しないと生命保険契約が成立し難いという大きな特色を生命保険事業はもっている。</p>
+<p>死亡危険への対応は死亡率が基本となるが、死亡率は年齢とともに上昇する。また、生存危険への対応に関しては、一定期間経過後に生じるとするのが一般的である。このように死亡危険、生存危険への生命保険の対応においては、その保障が契約期間の後半にかたよるため、［ ８ ］対応による積立金の必要性が生じる。この積立金の効率的［ ９ ］のために、金融機関としての活動を拡大することも、生命保険事業運営上の大きな特色となっている。</p>
+<p>20 世紀の生命保険の代表商品であった死亡・生存危険対応を併せ持つ［ 10 ］の普及が生命保険事業の金融的地位を高めたのはこの特色に拠るところが大きい。</p>
+<div class="word-group">
+<table>
+<tr><td>ア． 算出</td><td>イ． 傷害疾病定額保険契約</td></tr>
+<tr><td>ウ． ユニバーサル保険</td><td>エ． 自然保険料</td></tr>
+<tr><td>オ． 潜在的</td><td>カ． 傷害疾病損害保険契約</td></tr>
+<tr><td>キ． 平準保険料</td><td>ク． 顕在的</td></tr>
+<tr><td>ケ． 養老保険</td><td>コ． 運用</td></tr>
+</table>
+</div>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong><br/>
+                                ［ ６ ］：イ．傷害疾病定額保険契約<br/>
+                                ［ ７ ］：オ．潜在的<br/>
+                                ［ ８ ］：キ．平準保険料<br/>
+                                ［ ９ ］：コ．運用<br/>
+                                ［ 10 ］：ケ．養老保険
+                            </div>
+<div class="explanation">
+<h5>完成した文章</h5>
+<p>傷害・疾病危険に関しては、従来は明確な規定がなかったが、保険法においては「<strong>傷害疾病定額保険契約</strong>」として典型契約としての地位が与えられた。</p>
+<p>生死、特に死亡にかかわる損失を保障する生命保険商品の購入は、消費者にとってはあまり積極的に検討したい性質のものではないため、生命保険に対するニーズは<strong>潜在的</strong>である傾向がある。よって、保険者が加入勧奨しないと生命保険契約が成立し難いという大きな特色を生命保険事業はもっている。</p>
+<p>死亡危険への対応は死亡率が基本となるが、死亡率は年齢とともに上昇する。また、生存危険への対応に関しては、一定期間経過後に生じるとするのが一般的である。このように死亡危険、生存危険への生命保険の対応においては、その保障が契約期間の後半にかたよるため、<strong>平準保険料</strong>対応による積立金の必要性が生じる。この積立金の効率的<strong>運用</strong>のために、金融機関としての活動を拡大することも、生命保険事業運営上の大きな特色となっている。</p>
+<p>20 世紀の生命保険の代表商品であった死亡・生存危険対応を併せ持つ<strong>養老保険</strong>の普及が生命保険事業の金融的地位を高めたのはこの特色に拠るところが大きい。</p>
+<h5>解説</h5>
+<ul>
+<li><strong>［ ６ ］傷害疾病定額保険契約</strong>：保険法で新たに定義された契約類型で、医療保険やがん保険などがこれにあたります。人の傷害や疾病に基づき「一定の」給付を行う契約です。</li>
+<li><strong>［ ７ ］潜在的</strong>：消費者は生命保険の必要性を普段は意識していない（ニーズが表面化していない）ことが多いため、そのニーズは「潜在的」であるといえます。そのため、営業職員などによる働きかけ（プッシュ型営業）が重要になります。</li>
+<li><strong>［ ８ ］平準保険料</strong>：年齢とともに上昇する自然保険料では高齢期の負担が重くなるため、保険期間を通じて保険料を一定にする「平準保険料」方式が一般的です。この方式では、契約初期に払い込まれた保険料の一部が将来の支払いのために積み立てられます（責任準備金）。</li>
+<li><strong>［ ９ ］運用</strong>：平準保険料方式によって積み立てられた多額の資金（責任準備金）を効率的に「運用」し、収益を上げることは、保険会社の重要な役割であり、金融機関としての側面を強めています。</li>
+<li><strong>［ 10 ］養老保険</strong>：死亡保障（死亡保険）と満期時の生存保障（生存保険）を組み合わせた生死混合保険の代表例です。貯蓄性が高いため、多額の責任準備金が積み立てられ、生命保険会社の金融機関としての役割を大きくしました。</li>
+</ul>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2024年度 フォームC 問6-10</span>
+</div>
+</div>
+<div class="chapter">
+<h3 id="section-section1-3">1-3. 保険の歴史的発展</h3>
+<div class="question-block">
+<p class="question-title">［保険の歴史的発展－①］</p>
+<div class="question-text">
+<p>文中の空欄［ 11 ］～［ 15 ］に入る最も適切なものを選んでください。</p>
+<p>封建社会では、農民や職人の生産力は領主にとって不可欠であり、領主はその生産力に依存し、また一方、農民や職人はその生活を領主によって守られていた。</p>
+<p>故に上下の支配関係の中で相互依存していることから、この社会制度それ自体が［ 11 ］の役割を果たしていたといえよう。</p>
+<p>西ヨーロッパの封建社会は、農業生産を基礎とする［ 12 ］の社会であったが、封建社会の確立に伴い生産力が向上するにつれ、次第に余剰生産物が生み出されるようになり、交換経済が起こってきた。これに対応して、商品経済と都市成立への動きが始まったのである。</p>
+<p>都市経済では商人とその家族は１つの［ 13 ］であり、彼等が被った経済的損失は、貴族も領主も救済してくれず、自らが補塡していかねばならない。商人たちは、商取引や貿易をするに当たって、盗賊や海賊に襲われるという危険から、自主的な団結と［ 14 ］を組織的に行う制度を生み出した。これが［ 15 ］と呼ばれる組織である。</p>
+<p>［ 15 ］は封建社会の中で独立的な［ 13 ］が結合して、自らの力で危険に対処した最初の試みである。</p>
+<div class="word-group">
+<table>
+<tr><td>ア． 自給自足</td><td>イ． 身分制度</td></tr>
+<tr><td>ウ． 計量単位</td><td>エ． 社会福祉</td></tr>
+<tr><td>オ． 保障制度</td><td>カ． ギルド</td></tr>
+<tr><td>キ． 相互扶助</td><td>ク． 友愛組合</td></tr>
+<tr><td>ケ． 地産地消</td><td>コ． 経済単位</td></tr>
+</table>
+</div>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong><br/>
+                                ［ 11 ］：オ．保障制度<br/>
+                                ［ 12 ］：ア．自給自足<br/>
+                                ［ 13 ］：コ．経済単位<br/>
+                                ［ 14 ］：キ．相互扶助<br/>
+                                ［ 15 ］：カ．ギルド
+                            </div>
+<div class="explanation">
+<h5>完成した文章</h5>
+<p>封建社会では、農民や職人の生産力は領主にとって不可欠であり、領主はその生産力に依存し、また一方、農民や職人はその生活を領主によって守られていた。</p>
+<p>故に上下の支配関係の中で相互依存していることから、この社会制度それ自体が<strong>保障制度</strong>の役割を果たしていたといえよう。</p>
+<p>西ヨーロッパの封建社会は、農業生産を基礎とする<strong>自給自足</strong>の社会であったが、封建社会の確立に伴い生産力が向上するにつれ、次第に余剰生産物が生み出されるようになり、交換経済が起こってきた。これに対応して、商品経済と都市成立への動きが始まったのである。</p>
+<p>都市経済では商人とその家族は１つの<strong>経済単位</strong>であり、彼等が被った経済的損失は、貴族も領主も救済してくれず、自らが補塡していかねばならない。商人たちは、商取引や貿易をするに当たって、盗賊や海賊に襲われるという危険から、自主的な団結と<strong>相互扶助</strong>を組織的に行う制度を生み出した。これが<strong>ギルド</strong>と呼ばれる組織である。</p>
+<p><strong>ギルド</strong>は封建社会の中で独立的な<strong>経済単位</strong>が結合して、自らの力で危険に対処した最初の試みである。</p>
+<h5>解説</h5>
+<p>この文章は、近代保険制度が誕生する以前の、中世ヨーロッパにおける保障の仕組みの変遷を説明しています。</p>
+<ul>
+<li><strong>［ 11 ］保障制度</strong>：封建社会では、領主が農民の生活を保障し、農民が領主に労働力を提供するという相互依存関係があり、社会全体が一種の保障制度として機能していました。</li>
+<li><strong>［ 12 ］自給自足</strong>：封建社会の経済は、基本的に自分たちの生活に必要なものを自分たちで生産する自給自足が中心でした。</li>
+<li><strong>［ 13 ］経済単位</strong>：都市が発達すると、商工業者が独立した経済活動の主体（経済単位）となりました。彼らは領主の保護から外れ、自らの力で経済的リスクに対処する必要が生じました。</li>
+<li><strong>［ 14 ］相互扶助</strong>：自分たちでリスクに対処するため、商人たちは互いに助け合う「相互扶助」の仕組みを作りました。</li>
+<li><strong>［ 15 ］ギルド</strong>：その相互扶助の具体的な組織が、同業者の組合である「ギルド」です。ギルドは、組合員の経済活動を保護し、困難な状況に陥った仲間を助けるなど、保険の原型ともいえる機能を果たしました。</li>
+</ul>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2023年度 フォームA, B, C 問11-15</span>
+</div>
+<div class="question-block">
+<p class="question-title">［保険の歴史的発展－②］</p>
+<div class="question-text">
+<p>文中の空欄［ 16 ］～［ 20 ］に入る最も適切なものを選んでください。</p>
+<p>中世における商業の発達は、［ 16 ］の生成を促進し、地中海沿岸のイタリア諸都市の商人達が、海上貿易の危険を商人相互間に転嫁するシステムとして慣習化した［ 17 ］という制度が発生した。しかしこの制度はあくまで商業主義に基づく投機的営利を目的とする制度であった。</p>
+<p>封建社会は産業革命とともに終焉を迎え、資本主義社会が姿を現し始めた。人々は共同体の束縛から解放され、自由を獲得したが、自己責任の下、さまざまな危険に対する対策が必要となった。このようにして、保険生成の諸条件が資本主義社会の中で成熟してきた。また、近世初頭の合理主義の台頭により、危険を予測する手段としての確率論や［ 18 ］が発達し、保険業者はこれらを保険の理論に取り入れ、経営を科学的・合理的なものとした。</p>
+<p>初期の商業資本に代わり産業資本がその地位を確立する段階では、社会は資本家と労働者の階級的対立を生み出していた。とくに後進資本主義国の［ 19 ］では、労働者階級の弾圧に失敗したあと、一連の［ 20 ］が社会政策の手段として実施された。</p>
+<div class="word-group">
+<table>
+<tr><td>ア． 航海保険</td><td>イ． 冒険貸借</td></tr>
+<tr><td>ウ． 公的扶助</td><td>エ． 統計学</td></tr>
+<tr><td>オ． 社会保険</td><td>カ． 海上保険</td></tr>
+<tr><td>キ． 経済学</td><td>ク． 海上請負</td></tr>
+<tr><td>ケ． ドイツ</td><td>コ． オランダ</td></tr>
+</table>
+</div>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong><br/>
+                                ［ 16 ］：カ．海上保険<br/>
+                                ［ 17 ］：イ．冒険貸借<br/>
+                                ［ 18 ］：エ．統計学<br/>
+                                ［ 19 ］：ケ．ドイツ<br/>
+                                ［ 20 ］：オ．社会保険
+                            </div>
+<div class="explanation">
+<h5>完成した文章</h5>
+<p>中世における商業の発達は、<strong>海上保険</strong>の生成を促進し、地中海沿岸のイタリア諸都市の商人達が、海上貿易の危険を商人相互間に転嫁するシステムとして慣習化した<strong>冒険貸借</strong>という制度が発生した。しかしこの制度はあくまで商業主義に基づく投機的営利を目的とする制度であった。</p>
+<p>封建社会は産業革命とともに終焉を迎え、資本主義社会が姿を現し始めた。人々は共同体の束縛から解放され、自由を獲得したが、自己責任の下、さまざまな危険に対する対策が必要となった。このようにして、保険生成の諸条件が資本主義社会の中で成熟してきた。また、近世初頭の合理主義の台頭により、危険を予測する手段としての確率論や<strong>統計学</strong>が発達し、保険業者はこれらを保険の理論に取り入れ、経営を科学的・合理的なものとした。</p>
+<p>初期の商業資本に代わり産業資本がその地位を確立する段階では、社会は資本家と労働者の階級的対立を生み出していた。とくに後進資本主義国の<strong>ドイツ</strong>では、労働者階級の弾圧に失敗したあと、一連の<strong>社会保険</strong>が社会政策の手段として実施された。</p>
+<h5>解説</h5>
+<ul>
+<li><strong>［ 16 ］海上保険, ［ 17 ］冒険貸借</strong>：海上貿易の発展に伴い、そのリスクをヘッジする仕組みとして「冒険貸借」が生まれました。これは、航海の成功を条件に高利で資金を貸し付け、失敗した場合は返済を免除するというもので、海上保険の原型とされています。</li>
+<li><strong>［ 18 ］統計学</strong>：近代保険が成立するためには、大数の法則に基づき、危険（死亡率など）を科学的に測定する必要がありました。その基礎となったのが確率論や統計学の発達です。</li>
+<li><strong>［ 19 ］ドイツ, ［ 20 ］社会保険</strong>：19世紀後半、ビスマルク政権下のドイツで、労働者階級の不満を和らげるための社会政策（アメとムチ政策のアメ）として、世界で初めて疾病保険や災害保険、老齢疾病保険といった社会保険制度が創設されました。</li>
+</ul>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2023年度 フォームA, B, C 問16-20</span>
+</div>
+<div class="question-block">
+<p class="question-title">［日本における生命保険の発展について］</p>
+<div class="question-text">
+<p>次の文章のうち、誤っているものを１つ選んでください。</p>
+<p>ア．明治の初期に広く西洋文明を紹介した福沢諭吉は、彼の著書「西洋旅案内」「西洋事情」の中で、ドイツの保険制度を紹介したが、これは日本に保険を紹介した最初のものであった。</p>
+<p>イ．生命保険業界は、生命保険事業の正しい発展と秩序を保つために現在の生命保険協会の前身である生命保険会社談話会を1898 年（明治31年）に設立した。また、翌年には保険数理の専門家達によって日本アクチュアリー会が設立された。</p>
+<p>ウ．1920 年（大正９年）までに22 万人を超える犠牲者を出したスペインかぜの大流行と1923 年（大正12 年）の関東大震災に際して生命保険会社が多額の保険金を支払い、その使命を果たしたことで、生命保険の必要性とその役割が新たに認識されたため、その後生命保険契約高は一段と伸展した。</p>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong> ア
+                            </div>
+<div class="explanation">
+<h5>解説</h5>
+<ul>
+<li><strong>ア（誤り）</strong>：福沢諭吉が西洋の保険制度を紹介したのは事実ですが、紹介したのは<strong>英米</strong>の制度です。「ドイツの保険制度」という部分が誤りです。特に「西洋旅案内」が日本で最初に保険を紹介した書物とされています。</li>
+<li><strong>イ（正しい）</strong>：記述の通り、業界団体である生命保険会社談話会（現・生命保険協会）と、専門家集団である日本アクチュアリー会が明治時代に相次いで設立され、日本における生命保険事業の発展の礎を築きました。</li>
+<li><strong>ウ（正しい）</strong>：スペインかぜや関東大震災といった大災害時に、生命保険会社が契約に基づき保険金を支払ったことで、社会における生命保険の有用性や信頼性が広く認識され、その後の契約増加につながりました。</li>
+</ul>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2022年度 フォームA 問29</span>
+</div>
+</div>
+<h2 id="section-chapter2">第2章 生命保険契約</h2>
+<div class="chapter-summary">
+<h3>この章のまとめ</h3>
+<ul>
+<li><strong>契約の法的性質</strong>：生命保険契約は、当事者の合意のみで成立する「諾成契約」、特定の方式を要しない「不要式契約」、約款に包括的に合意する「付合契約」である。</li>
+<li><strong>契約の当事者と要素</strong>：保険会社（保険者）、保険契約者、被保険者、保険金受取人が関わる。被保険者は「個人」に限られるが、契約者や受取人は「法人」でもよい。</li>
+<li><strong>保険約款</strong>：定型的・大量の取引を円滑にするため、保険会社が作成した定型の契約条項。契約者は詳細を理解していなくても、その内容に拘束される。</li>
+<li><strong>責任開始日</strong>：保険会社の保障が開始される時期。通常、「申込み」「告知（または診査）」「第1回保険料の払込み」の3つが完了した時（実務上は告知日と払込日のいずれか遅い日）となる。</li>
+</ul>
+</div>
+<div class="chapter">
+<h3 id="section-section2-1">2-1. 契約の法的性質</h3>
+<div class="question-block">
+<p class="question-title">［生命保険契約の法的性質］</p>
+<div class="question-text">
+<p>次の文章のうち、正しいものを１つ選んでください。</p>
+<p>ア．生命保険契約は諾成契約なので、契約当事者双方の合意のみによって契約が成立する。</p>
+<p>イ．生命保険契約は要式契約なので、契約締結に当たっては申込書の提出や保険証券の発行が必要である。</p>
+<p>ウ．生命保険契約は付合契約なので、契約当事者がお互いに協議のうえ契約条項を定めている。</p>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong> ア
+                            </div>
+<div class="explanation">
+<h5>解説</h5>
+<p>生命保険契約の法的な性質に関する問題です。</p>
+<ul>
+<li><strong>ア（正しい）</strong>：生命保険契約は、契約者からの「申込み」と保険会社の「承諾」という<strong>双方の意思表示の合致</strong>によって成立する<strong>諾成契約</strong>です。書面の交付や金銭の授受は契約成立の要件ではありません。</li>
+<li><strong>イ（誤り）</strong>：生命保険契約は、特定の方式（書面など）を必要としない<strong>不要式契約</strong>です。「要式契約」ではありません。ただし、実務上はトラブル防止や内容明確化のため、申込書や保険証券が作成・交付されます。</li>
+<li><strong>ウ（誤り）</strong>：生命保険契約は、保険会社が作成した定型的な契約条項（保険約款）を契約者が包括的に受け入れる形で契約が成立する<strong>付合契約</strong>（附合契約）です。契約者と保険会社が個別に条項を協議して定めるわけではありません。記述は付合契約の説明として逆になっています。</li>
+</ul>
+<p>その他、生命保険契約は以下の性質も持ちます。</p>
+<ul>
+<li><strong>双務契約</strong>：契約当事者（保険契約者と保険会社）が互いに対価的な意味を持つ債務を負う契約。（契約者：保険料支払義務、保険会社：保険金支払義務）</li>
+<li><strong>有償契約</strong>：当事者双方が対価的な意味を持つ出捐（経済的負担）をする契約。</li>
+<li><strong>射倖契約</strong>：給付の内容が偶然の事象（保険事故の発生）に左右される契約。</li>
+<li><strong>善意契約</strong>：契約当事者双方に高度の信義誠実（善意）が要求される契約。告知義務はその典型です。</li>
+</ul>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2023年度 フォームA, 2024年度 フォームC 問21</span>
+</div>
+<div class="question-block">
+<p class="question-title">［契約の法的性質］</p>
+<div class="question-text">
+<p>次の文章について、下線部ＡまたはＢのいずれかが誤っている場合と、Ａ・Ｂともに正しい場合とがあります。ＡまたはＢのいずれかが誤っている場合は、誤っている記号と代わって入るものが最も適切な組み合わせを選択してください。Ａ・Ｂともに正しい場合は、記号Ｃを選択してください。</p>
+<p>生命保険契約は、保険法に基づく生命保険契約の法的な性質から、契約当事者双方の合意によって成立する(A)<u>諾成契約</u>にあたる。また、契約に際し一定の要式が必要でない(B)<u>付合契約</u>であるといえる。</p>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong> ウ．Ｂ－不要式契約
+                            </div>
+<div class="explanation">
+<h5>解説</h5>
+<ul>
+<li><strong>(A) 諾成契約</strong>：正しい。生命保険契約は、契約者の申込みと保険会社の承諾という意思表示の合致で成立する諾成契約です。</li>
+<li><strong>(B) 付合契約</strong>：この部分の記述が誤っています。文章は「契約に際し一定の要式が必要でない」と説明しており、これは<strong>不要式契約</strong>の定義です。したがって、(B)を「不要式契約」に訂正するのが正しいです。
+                                        <ul>
+<li><strong>付合契約（附合契約）</strong>とは、保険会社が一方的に作成した保険約款を、契約者が包括的に承認することで成立する契約形態を指します。</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2022年度 フォームC 問41</span>
+</div>
+</div>
+<div class="chapter">
+<h3 id="section-section2-2">2-2. 契約の当事者と要素</h3>
+<div class="question-block">
+<p class="question-title">［生命保険契約の要素について］</p>
+<div class="question-text">
+<p>次の文章のうち、正しいものを１つ選んでください。</p>
+<p>ア．保険契約者の資格については、個人であると法人であるとを問わないが、行為能力者であることが必要である。</p>
+<p>イ．被保険者の資格については、個人であることのほかは別段の制限はないが、誰を被保険者とするかを定めることは必要である。そして、１契約における被保険者は必ずしも１人であることを必要としない。</p>
+<p>ウ．保険金受取人の資格については、個人であると法人であるとを問わないが、行為能力者であることが必要である。</p>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong> イ
+                            </div>
+<div class="explanation">
+<h5>解説</h5>
+<ul>
+<li><strong>ア（誤り）</strong>：保険契約者になるには、原則として<strong>行為能力者</strong>であることが必要です。しかし、制限行為能力者（例：未成年者）であっても、法定代理人（親権者など）の同意があれば契約者となることができます。「行為能力者であることが必要である」と断定している点が不正確です。</li>
+<li><strong>イ（正しい）</strong>：記述の通りです。被保険者は保険の対象となる「人」なので、<strong>個人</strong>に限られます（法人は被保険者になれません）。また、1つの契約で複数の被保険者を設定する保険（連生保険や家族保険など）も存在します。</li>
+<li><strong>ウ（誤り）</strong>：保険金受取人は、保険金を受け取る権利を持つ者であり、その資格に<strong>行為能力は要求されません</strong>。未成年者や法人も保険金受取人になることができます。未成年者が保険金を受け取る際は、法定代理人が手続きを行います。</li>
+</ul>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2022年度 フォームA, B, C 問21</span>
+</div>
+<div class="question-block">
+<p class="question-title">［生命保険契約の要素］</p>
+<div class="question-text">
+<p>次の文章のうち、誤っているものを１つ選んでください。</p>
+<p>ア．生命保険契約の当事者として、契約の対象となっている危険を引き受け、契約事故が発生した場合に保険金の支払義務を負う者を保険者という。</p>
+<p>イ．保険契約者の資格については別段の制限はなく、個人であると法人であるとを問わず、また行為能力者であると否とを問わない。もちろん、制限行為能力者が保険契約者となって生命保険契約を締結する場合には、法定代理人の同意が必要となる。</p>
+<p>ウ．被保険者の資格については別段の制限はなく、個人であると法人であるとを問わないが、誰を被保険者とするかを定めることは必要である。そして１契約における被保険者は必ずしも１人であることを必要としない。</p>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong> ウ
+                            </div>
+<div class="explanation">
+<h5>解説</h5>
+<ul>
+<li><strong>ア（正しい）</strong>：保険者（生命保険会社）の定義として正しい記述です。</li>
+<li><strong>イ（正しい）</strong>：保険契約者の資格について正しく説明しています。法人も契約者になれますし、制限行為能力者も法定代理人の同意があれば契約者になれます。</li>
+<li><strong>ウ（誤り）</strong>：被保険者は保険の対象となる「人」であるため、<strong>個人</strong>に限られます。「法人であるとを問わない」という部分が明確な誤りです。法人は被保険者になることはできません。なお、1契約の被保険者が複数である連生保険等は存在します。</li>
+</ul>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2024年度 フォームB, C 問26</span>
+</div>
+<div class="question-block">
+<p class="question-title">［保険契約の当事者］</p>
+<div class="question-text">
+<p>次の文章について、下線部ＡまたはＢのいずれかが誤っている場合と、Ａ・Ｂともに正しい場合とがあります。ＡまたはＢのいずれかが誤っている場合は、誤っている記号と代わって入るものが最も適切な組み合わせを選択してください。Ａ・Ｂともに正しい場合は、記号Ｃを選択してください。</p>
+<p>保険契約の一方の当事者である(A)<u>保険契約者</u>は、保険者が危険を負担していることに対して、保険事故発生の可能性に応じたものとして(B)<u>保険金</u>を支払う。</p>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong> ウ．Ｂ－保険料
+                            </div>
+<div class="explanation">
+<h5>解説</h5>
+<ul>
+<li><strong>(A) 保険契約者</strong>：正しい。保険会社と契約を結ぶ当事者は保険契約者です。</li>
+<li><strong>(B) 保険金</strong>：誤り。保険契約者が保険会社に支払うのは<strong>保険料</strong>です。保険金は、保険事故が発生した際に、保険会社から保険金受取人に支払われるものです。</li>
+</ul>
+<p>したがって、(B)を「保険料」に訂正するのが正しいです。</p>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2022年度 フォームA 問41</span>
+</div>
+<div class="question-block">
+<p class="question-title">［保険金額］</p>
+<div class="question-text">
+<p>次の文章について、下線部ＡまたはＢのいずれかが誤っている場合と、Ａ・Ｂともに正しい場合とがあります。ＡまたはＢのいずれかが誤っている場合は、誤っている記号と代わって入るものが最も適切な組み合わせを選択してください。Ａ・Ｂともに正しい場合は、記号Ｃを選択してください。</p>
+<p>生命保険契約の場合、保険金額は保険者と(A)<u>保険契約者</u>との合意によって自由に定められ、保険事故が発生した場合、保険者は、(B)<u>保険料払込期間に応じた</u>保険金額を支払う義務を負う。</p>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong> エ．Ｂ－あらかじめ定められた
+                            </div>
+<div class="explanation">
+<h5>解説</h5>
+<ul>
+<li><strong>(A) 保険契約者</strong>：正しい。保険金額は、保険会社と保険契約者との間の合意によって決定されます。</li>
+<li><strong>(B) 保険料払込期間に応じた</strong>：誤り。生命保険は定額保険であり、保険事故が発生した際には、契約時に<strong>あらかじめ定められた</strong>保険金額が支払われます。実際の損害額や保険料の払込期間によって支払額が変動するわけではありません（ただし、減額や失効、貸付などがある場合は調整されます）。</li>
+</ul>
+<p>したがって、(B)を「あらかじめ定められた」に訂正するのが正しいです。</p>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2022年度 フォームB 問43</span>
+</div>
+</div>
+<div class="chapter">
+<h3 id="section-section2-3">2-3. 生命保険契約の特殊性と保険約款</h3>
+<div class="question-block">
+<p class="question-title">［生命保険契約の特殊性－①］</p>
+<div class="question-text">
+<p>文中の空欄［ １ ］～［ ５ ］に入る最も適切なものを選んでください。</p>
+<p>生命保険の取引については、［ １ ］の原則に支配されるため、取引を行うかどうか、契約の内容としての給付と反対給付に関する［ ２ ］関係についても、保険契約者と保険者の合意が前提となる。</p>
+<p>しかし、生命保険の［ ３ ］本質や技術的基礎、さらには広く大衆を顧客対象としている取引の実体から、その法的領域については特殊性が生じる。</p>
+<p>その第１が、生命保険取引に関する規則を定めた［ ４ ］であり、第２が、契約内容を一定の条項に定型化した普通保険約款である。</p>
+<p>［ ５ ］は、商行為としての保険（株式会社形態の保険会社が行う保険）を規律対象としつつ、相互保険（相互会社形態の保険会社が行う保険）にも準用される形となっていたが、いわゆる共済は［ ５ ］の規律対象ではなく保険約款に関する［ ５ ］の規定は類推適用に留まると解されていた。しかし、［ ４ ］においては、保険契約者と実質的に同じ地位に置かれている共済契約者の保護の観点から、共済契約も［ ４ ］の適用対象とされている。</p>
+<p>生命保険は一般の多くの人々を相手として取引され、かつ、この取引の内容は専門的、技術的事項を含んでいるため、あらかじめ［ ４ ］に規定されていない事項をも含んだ標準的な契約内容の条項を作成しておく必要がある。</p>
+<p>そして、契約に当たっては別段の約定がない限り、この標準的契約条項、すなわち普通保険約款を内容として取引する方法を採用しているので、通常保険契約の締結は約款を承認するか否かの合意によって決まることになる。</p>
+<div class="word-group">
+<table>
+<tr><td>ア． 過失責任</td><td>イ． 保険法</td></tr>
+<tr><td>ウ． 債権債務</td><td>エ． 経済的</td></tr>
+<tr><td>オ． 私的自治</td><td>カ． 保険業法</td></tr>
+<tr><td>キ． 商法</td><td>ク． 歴史的</td></tr>
+<tr><td>ケ． 契約自由</td><td>コ． 民法</td></tr>
+</table>
+</div>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong><br/>
+                                ［ １ ］：ケ．契約自由<br/>
+                                ［ ２ ］：ウ．債権債務<br/>
+                                ［ ３ ］：エ．経済的<br/>
+                                ［ ４ ］：イ．保険法<br/>
+                                ［ ５ ］：キ．商法
+                            </div>
+<div class="explanation">
+<h5>完成した文章</h5>
+<p>生命保険の取引については、<strong>契約自由</strong>の原則に支配されるため、取引を行うかどうか、契約の内容としての給付と反対給付に関する<strong>債権債務</strong>関係についても、保険契約者と保険者の合意が前提となる。</p>
+<p>しかし、生命保険の<strong>経済的</strong>本質や技術的基礎、さらには広く大衆を顧客対象としている取引の実体から、その法的領域については特殊性が生じる。</p>
+<p>その第１が、生命保険取引に関する規則を定めた<strong>保険法</strong>であり、第２が、契約内容を一定の条項に定型化した普通保険約款である。</p>
+<p><strong>商法</strong>は、商行為としての保険（株式会社形態の保険会社が行う保険）を規律対象としつつ、相互保険（相互会社形態の保険会社が行う保険）にも準用される形となっていたが、いわゆる共済は<strong>商法</strong>の規律対象ではなく保険約款に関する<strong>商法</strong>の規定は類推適用に留まると解されていた。しかし、<strong>保険法</strong>においては、保険契約者と実質的に同じ地位に置かれている共済契約者の保護の観点から、共済契約も<strong>保険法</strong>の適用対象とされている。</p>
+<p>生命保険は一般の多くの人々を相手として取引され、かつ、この取引の内容は専門的、技術的事項を含んでいるため、あらかじめ<strong>保険法</strong>に規定されていない事項をも含んだ標準的な契約内容の条項を作成しておく必要がある。</p>
+<h5>解説</h5>
+<ul>
+<li><strong>［ １ ］契約自由</strong>：近代私法の基本原則で、誰と、どのような内容の契約を、どのような方式で結ぶかは当事者の自由な意思に委ねられるという原則。私的自治の原則とも関連が深い。</li>
+<li><strong>［ ２ ］債権債務</strong>：契約によって生じる、一方の当事者が他方に対して特定の行為（給付）を請求できる権利（債権）と、それに応じる義務（債務）の関係。保険契約では、保険料支払債務と保険金支払債務などがこれにあたる。</li>
+<li><strong>［ ３ ］経済的</strong>：生命保険は、人の生死という事象そのものではなく、それに伴う経済的損失を保障するという経済的な本質を持つ。</li>
+<li><strong>［ ４ ］保険法</strong>：2010年に施行された、保険契約に関する基本的なルールを定めた法律。契約者保護を重視し、それまで商法や約款で規律されていた内容を統一的に規定している。</li>
+<li><strong>［ ５ ］商法</strong>：保険法が施行される前は、保険契約は商法で規律されていた。しかし、商法の対象は基本的に商行為を行う株式会社であり、相互会社は準用、共済は対象外と解釈されるなど、規律にばらつきがあった。</li>
+</ul>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2022年度 フォームA 問1-5</span>
+</div>
+<div class="question-block">
+<p class="question-title">［生命保険契約の特殊性－②］</p>
+<div class="question-text">
+<p>文中の空欄［ ６ ］～［ 10 ］に入る最も適切なものを選んでください。</p>
+<p>一般に、生命保険契約の締結に際して保険契約の申込者が保険約款の各条項を知ったうえで理解し納得しているとは限らない。そこで、生命保険会社があらかじめ作成した保険約款が保険契約者を［ ６ ］するか否かについてが問題となるが、一般的には保険約款には［ ６ ］力があるとされている。その根拠については、［ ７ ］、意思推定説、慣習法説、白地慣習法説等の種々の見解がある。</p>
+<p>このように、保険約款に［ ６ ］力があるとされる背景には、保険契約の申込者の理解や納得のない場合に保険約款の効力が生じないとすることは、大量かつ［ ８ ］を要する生命保険契約の実態に合わないとの判断が前提にあるためと考えられる。</p>
+<p>生命保険に関する法律や［ ９ ］が、生命保険会社と保険契約者との間でどのような順位によって適用されるかをみると、法律に［ 10 ］規定がある場合を除き、まず［ ９ ］が適用される。</p>
+<div class="word-group">
+<table>
+<tr><td>ア． 法規範説</td><td>イ． 強行</td></tr>
+<tr><td>ウ． 拘束</td><td>エ． 定款</td></tr>
+<tr><td>オ． 特定</td><td>カ． 保険約款</td></tr>
+<tr><td>キ． 定型的取引</td><td>ク． 類型的取引</td></tr>
+<tr><td>ケ． 道徳規範説</td><td>コ． 任意</td></tr>
+</table>
+</div>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong><br/>
+                                ［ ６ ］：ウ．拘束<br/>
+                                ［ ７ ］：ア．法規範説<br/>
+                                ［ ８ ］：キ．定型的取引<br/>
+                                ［ ９ ］：カ．保険約款<br/>
+                                ［ 10 ］：イ．強行
+                            </div>
+<div class="explanation">
+<h5>完成した文章</h5>
+<p>一般に、生命保険契約の締結に際して保険契約の申込者が保険約款の各条項を知ったうえで理解し納得しているとは限らない。そこで、生命保険会社があらかじめ作成した保険約款が保険契約者を<strong>拘束</strong>するか否かについてが問題となるが、一般的には保険約款には<strong>拘束</strong>力があるとされている。その根拠については、<strong>法規範説</strong>、意思推定説、慣習法説、白地慣習法説等の種々の見解がある。</p>
+<p>このように、保険約款に<strong>拘束</strong>力があるとされる背景には、保険契約の申込者の理解や納得のない場合に保険約款の効力が生じないとすることは、大量かつ<strong>定型的取引</strong>を要する生命保険契約の実態に合わないとの判断が前提にあるためと考えられる。</p>
+<p>生命保険に関する法律や<strong>保険約款</strong>が、生命保険会社と保険契約者との間でどのような順位によって適用されるかをみると、法律に<strong>強行</strong>規定がある場合を除き、まず<strong>保険約款</strong>が適用される。</p>
+<h5>解説</h5>
+<ul>
+<li><strong>［ ６ ］拘束</strong>：保険約款は、契約者がその詳細な内容を理解していなくても、契約内容として当事者を法的に「拘束」する効力を持つとされています。</li>
+<li><strong>［ ７ ］法規範説</strong>：保険約款が拘束力を持つ根拠の一つ。行政官庁（金融庁）の認可を得た保険約款は、それ自体が法規（法規範）としての性質を持つため、当事者の意思とは無関係に契約内容となる、という考え方です。</li>
+<li><strong>［ ８ ］定型的取引</strong>：生命保険契約は、不特定多数の顧客と同一の条件で大量に締結される「定型的取引」です。個別に契約内容を交渉することは非効率であり、実態に合いません。</li>
+<li><strong>［ ９ ］保険約款, ［ 10 ］強行</strong>：契約内容の適用順位は、当事者が自由に変更できない「強行規定（強行法規）」が最優先されます。しかし、法律の規定が当事者の合意で変更可能な「任意規定（任意法規）」である場合、それと異なる定めをしている「保険約款」の条項が優先して適用されます。</li>
+</ul>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2022年度 フォームA 問6-10</span>
+</div>
+</div>
+<div class="chapter">
+<h3 id="section-section2-4">2-4. 保険の始期</h3>
+<div class="question-block">
+<p class="question-title">［保険の始期］</p>
+<div class="question-text">
+<p>次の文章について、下線部ＡまたはＢのいずれかが誤っている場合と、Ａ・Ｂともに正しい場合とがあります。ＡまたはＢのいずれかが誤っている場合は、誤っている記号と代わって入るものが最も適切な組み合わせを選択してください。Ａ・Ｂともに正しい場合は、記号Ｃを選択してください。</p>
+<p>死亡保険や生死混合保険における(A)<u>保険期間</u>の始期については、保険約款において第１回保険料払込みの日または被保険者に関する告知の日の(B)<u>いずれか早い日</u>から始まると定めることが多い。</p>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong> エ．Ｂ－いずれか遅い日
+                            </div>
+<div class="explanation">
+<h5>解説</h5>
+<p>保険会社の責任が開始する時期（責任開始日）に関する問題です。</p>
+<ul>
+<li><strong>(A) 保険期間</strong>：正しい。保険期間の始まりの時点を「始期」といいます。</li>
+<li><strong>(B) いずれか早い日</strong>：誤り。保険会社の責任は、①申込み、②告知（または診査）、③第1回保険料の払込み、という3つの手続きがすべて完了した時から開始されるのが原則です。実務上、約款では「第1回保険料払込みの日」と「告知の日」の<strong>いずれか遅い日</strong>を責任開始日と定めているのが一般的です。これにより、保険料が支払われていない状態や、告知が済んでいない状態で保障が開始されることを防いでいます。</li>
+</ul>
+<p>したがって、(B)を「いずれか遅い日」に訂正するのが正しいです。</p>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2023年度 フォームC 問41, 2024年度 フォームB 問41</span>
+</div>
+</div>
+<h2 id="section-chapter3">第3章 生命保険の数理</h2>
+<div class="chapter-summary">
+<h3>この章のまとめ</h3>
+<ul>
+<li><strong>保険料の仕組み</strong>：契約者が支払う「営業保険料」は、将来の保険金支払いの原資となる「純保険料」と、事業運営経費である「付加保険料」から構成される。</li>
+<li><strong>3つの予定基礎率</strong>：純保険料は「予定死亡率」と「予定利率」で、付加保険料は「予定事業費率」で計算される。</li>
+<li><strong>責任準備金</strong>：将来の保険金支払いに備えるための積立金で、保険会社の負債の部で最も大きな割合を占める。「平準保険料方式」で保険料を平準化することにより生じる。</li>
+<li><strong>契約者配当（剰余金）</strong>：決算時に生じた剰余金は契約者に還元される。剰余の源泉（利源）は、予定と実績の差から生じる「死差損益」「利差損益」「費差損益」の3つが基本となる（3利源方式）。</li>
+</ul>
+</div>
+<div class="chapter">
+<h3 id="section-section3-1">3-1. 保険料の仕組み</h3>
+<div class="question-block">
+<p class="question-title">［保険料］</p>
+<div class="question-text">
+<p>次の文章について、正しい場合には「正」、誤っている場合には「誤」を選んでください。</p>
+<p>保険事故の危険度、利率、事業費を定めて契約者に提示する保険料を決定する。この保険料を営業保険料という。</p>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong> 正
+                            </div>
+<div class="explanation">
+<h5>解説</h5>
+<p>記述の通りです。保険料の構成を理解することが重要です。</p>
+<ul>
+<li><strong>純保険料</strong>：将来の保険金支払いの財源となる部分。予定死亡率と予定利率の2つの基礎率で計算されます。</li>
+<li><strong>付加保険料</strong>：保険事業を運営するための経費（人件費、物件費、募集経費など）に充てられる部分。予定事業費率という基礎率で計算されます。</li>
+<li><strong>営業保険料</strong>：契約者が実際に支払う保険料のことで、<strong>「純保険料」と「付加保険料」を合計したもの</strong>です。</li>
+</ul>
+<p>問題文は、この営業保険料が3つの要素（危険度＝予定死亡率、利率＝予定利率、事業費＝予定事業費率）から成り立っていることを正しく説明しています。</p>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2022年度 フォームB 問32, 2024年度 フォームB, C 問32</span>
+</div>
+<div class="question-block">
+<p class="question-title">［事業費］</p>
+<div class="question-text">
+<p>次の文章について、下線部ＡまたはＢのいずれかが誤っている場合と、Ａ・Ｂともに正しい場合とがあります。ＡまたはＢのいずれかが誤っている場合は、誤っている記号と代わって入るものが最も適切な組み合わせを選択してください。Ａ・Ｂともに正しい場合は、記号Ｃを選択してください。</p>
+<p>保険料算出の一要素である事業費は、(A)<u>新契約費</u>と(B)<u>管理費</u>に大別される。前者は加入勧奨費用を含む新規に保険契約を締結する際に要する費用で、後者は前者以外の費用である。</p>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong> エ．Ｂ－維持費
+                            </div>
+<div class="explanation">
+<h5>解説</h5>
+<p>付加保険料の基礎となる事業費の内訳に関する問題です。</p>
+<ul>
+<li><strong>(A) 新契約費</strong>：正しい。契約を新たに獲得するためにかかる費用（募集人への手数料、診査費用、証券発行費用など）です。</li>
+<li><strong>(B) 管理費</strong>：誤り。新契約費以外の事業費は、一般に<strong>維持費</strong>と<strong>集金費</strong>に分けられます。
+                                        <ul>
+<li><strong>維持費</strong>：契約を維持・管理するためにかかる費用（保険料収納後の事務、契約者への通知、保険金支払査定など）。</li>
+<li><strong>集金費</strong>：第2回以降の保険料を集金するためにかかる費用。</li>
+</ul>
+                                        問題文の「後者は前者以外の費用」という説明に最も合致するのは「維持費」です。（広義には集金費も含む概念として使われることがあります）
+                                    </li>
+</ul>
+<p>したがって、(B)を「維持費」に訂正するのが最も適切です。</p>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2023年度 フォームC 問43</span>
+</div>
+</div>
+<div class="chapter">
+<h3 id="section-section3-2">3-2. 死亡表</h3>
+<div class="question-block">
+<p class="question-title">［死亡表］</p>
+<div class="question-text">
+<p>次の文章について、下線部ＡまたはＢのいずれかが誤っている場合と、Ａ・Ｂともに正しい場合とがあります。ＡまたはＢのいずれかが誤っている場合は、誤っている記号と代わって入るものが最も適切な組み合わせを選択してください。Ａ・Ｂともに正しい場合は、記号Ｃを選択してください。</p>
+<p>(A)<u>経験生命表</u>は、総合表、選択表、終局表の３種類に区分され、そのうち(B)<u>終局表</u>は、選択効果を除外した年齢別死亡率（加入後一定年数経過後に選択効果が消滅するとの前提に立ち、一定年数経過後の加入者のみを対象とした死亡率）である。</p>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong> オ．Ｃ（Ａ・Ｂともに正しい）
+                            </div>
+<div class="explanation">
+<h5>解説</h5>
+<p>この文章は、生命保険の被保険者集団を対象として作成される「経験生命表」の種類と定義について正しく説明しています。</p>
+<ul>
+<li><strong>(A) 経験生命表</strong>：正しい。生命保険会社の被保険者の死亡統計に基づいて作成される生命表です。これに対し、国民全体を対象とするのが国民生命表です。</li>
+<li><strong>(B) 終局表</strong>：正しい。経験生命表は、診査による「選択の効果」を考慮して、以下の3つに分けられます。
+                                        <ul>
+<li><strong>選択表 (Select Table)</strong>：加入直後の、健康状態が良好な被保険者の死亡率。選択の効果が最も強く現れます。</li>
+<li><strong>終局表 (Ultimate Table)</strong>：加入から一定期間が経過し、選択の効果がほぼ消滅した後の被保険者の死亡率。年齢のみに依存する死亡率とみなせます。</li>
+<li><strong>総合表 (Aggregate Table)</strong>：選択の効果を考慮せず、加入年度の異なるすべての被保険者をまとめて作成した死亡率。</li>
+</ul>
+</li>
+</ul>
+<p>記述は(A)経験生命表、(B)終局表の定義ともに正しいです。</p>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2022年度 フォームA, B, C 問42</span>
+</div>
+</div>
+<div class="chapter">
+<h3 id="section-section3-3">3-3. 責任準備金</h3>
+<div class="question-block">
+<p class="question-title">［責任準備金］</p>
+<div class="question-text">
+<p>次の文章について、正しい場合には「正」、誤っている場合には「誤」を選んでください。</p>
+<p>平準保険料方式の責任準備金は将来の保険金給付額と将来の保険料収入額の差額であるともいえる。自然保険料方式の場合は責任準備金はほとんど生じない。</p>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong> 正
+                            </div>
+<div class="explanation">
+<h5>解説</h5>
+<p>記述の通りです。保険料の払込方式と責任準備金の関係を正しく説明しています。</p>
+<ul>
+<li><strong>平準保険料方式</strong>：保険期間中の保険料を一定にする方式です。年齢が若い契約当初は、その年齢の死亡率に見合う保険料（自然保険料）よりも多くの保険料を支払うことになります。この「払い過ぎ」の部分が、将来の保険金支払いのために積み立てられ、これが<strong>責任準備金</strong>となります。文章にある「将来の保険金給付額の現価」から「将来の純保険料収入の現価」を差し引いたものが、ある時点での責任準備金（保険料積立金）となります。</li>
+<li><strong>自然保険料方式</strong>：年齢上昇に伴う死亡率の上昇に応じて、保険料も毎年上がっていく方式です。毎年、その年の保障に必要な分だけの保険料を支払うため、原理的には将来のための積立金は発生せず、<strong>責任準備金はほとんど生じません</strong>。</li>
+</ul>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2022年度 フォームA, B, C 問31</span>
+</div>
+<div class="question-block">
+<p class="question-title">［責任準備金］</p>
+<div class="question-text">
+<p>次の文章について、下線部ＡまたはＢのいずれかが誤っている場合と、Ａ・Ｂともに正しい場合とがあります。ＡまたはＢのいずれかが誤っている場合は、誤っている記号と代わって入るものが最も適切な組み合わせを選択してください。Ａ・Ｂともに正しい場合は、記号Ｃを選択してください。</p>
+<p>責任準備金には、契約集団評価と個々契約評価の二面があるが、責任準備金の第一義は決算時の(A)<u>時価評価</u>であり、契約集団としての(B)<u>積立金評価額</u>をいう。一方、個々契約の(B)<u>積立金評価額</u>も責任準備金というが、責任準備金の概念としては第二義である。</p>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong> ア．Ａ－負債
+                            </div>
+<div class="explanation">
+<h5>解説</h5>
+<p>責任準備金の会計上の位置づけと概念に関する問題です。</p>
+<ul>
+<li><strong>(A) 時価評価</strong>：誤り。責任準備金の第一義的な意味合いは、保険会社の決算における<strong>負債評価</strong>です。これは、将来の保険金支払いに備えて積み立てておくべき金額であり、貸借対照表上「負債」の部に計上されます。「時価評価」は資産の評価方法の一つであり、ここでは不適切です。</li>
+<li><strong>(B) 積立金評価額</strong>：正しい。責任準備金は、契約者から預かった保険料のうち、将来の支払いのために積み立てられた部分（積立金）を評価した額です。これは集団全体としても、個々の契約ごとにも計算されます。</li>
+</ul>
+<p>したがって、(A)を「負債」に訂正するのが正しいです。</p>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2023年度 フォームA, B, C 問42</span>
+</div>
+</div>
+<div class="chapter">
+<h3 id="section-section3-4">3-4. 契約者配当（剰余金の分配）</h3>
+<div class="question-block">
+<p class="question-title">［契約者配当－①］</p>
+<div class="question-text">
+<p>文中の空欄［ １ ］～［ ５ ］に入る最も適切なものを選んでください。</p>
+<p>保険料の収入、保険金の支払い等を経て事業年度末の資産が確定し、責任準備金を主とする［ １ ］を確定すれば、差額が剰余となる。その分配方法については相互会社の場合、［ ２ ］に記載するよう定めているが、剰余金の［ ３ ］以上は社員に対する分配をするための準備金として積み立てなければならない。なお、相互会社でも一定の範囲内で剰余金の分配のない［ ４ ］（無配当保険）の取扱いが可能である。</p>
+<p>剰余の大半は配当として契約者に分配される。分配にあたっては、［ ５ ］が最も重要なポイントとなる。保険料設定の際、危険度、利率、事業費を基準としているが、剰余の区分もこの３区分でなされるのが普通であり、これを３利源方式という。</p>
+<div class="word-group">
+<table>
+<tr><td>ア． 費用</td><td>イ． 20 ％</td></tr>
+<tr><td>ウ． 80 ％</td><td>エ． 非社員契約</td></tr>
+<tr><td>オ． 約款</td><td>カ． 無社員契約</td></tr>
+<tr><td>キ． 公平性</td><td>ク． 定款</td></tr>
+<tr><td>ケ． 公共性</td><td>コ． 負債</td></tr>
+</table>
+</div>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong><br/>
+                                ［ １ ］：コ．負債<br/>
+                                ［ ２ ］：ク．定款<br/>
+                                ［ ３ ］：イ．20 ％ (※2021年・2024年Bの問題では「イ．80%」が正解。設問の文脈により異なる。ここでは2024年Bの「剰余金の80%以上は社員に対する分配をするための準備金」という文脈で解説)<br/>
+                                ［ ４ ］：エ．非社員契約<br/>
+                                ［ ５ ］：キ．公平性
+                            </div>
+<div class="explanation">
+<h5>完成した文章（2024年度フォームBの文脈）</h5>
+<p>保険料の収入、保険金の支払い等を経て事業年度末の資産が確定し、責任準備金を主とする<strong>負債</strong>を確定すれば、差額が剰余となる。その分配方法については相互会社の場合、<strong>定款</strong>に記載するよう定めているが、剰余金の<strong>80 ％</strong>以上は社員に対する分配をするための準備金として積み立てなければならない。なお、相互会社でも一定の範囲内で剰余金の分配のない<strong>非社員契約</strong>（無配当保険）の取扱いが可能である。</p>
+<p>剰余の大半は配当として契約者に分配される。分配にあたっては、<strong>公平性</strong>が最も重要なポイントとなる。保険料設定の際、危険度、利率、事業費を基準としているが、剰余の区分もこの３区分でなされるのが普通であり、これを３利源方式という。</p>
+<h5>解説</h5>
+<ul>
+<li><strong>［ １ ］負債</strong>：責任準備金は、将来の保険金支払義務であり、保険会社の貸借対照表上、最大の「負債」項目です。</li>
+<li><strong>［ ２ ］定款</strong>：相互会社の剰余金分配方法は、会社の基本規則である「定款」で定めるよう保険業法で規定されています。</li>
+<li><strong>［ ３ ］80 ％</strong>：保険業法第55条第2項により、相互会社は剰余金の10分の8（80%）以上を社員（契約者）への配当準備金として積み立てることが義務付けられています。</li>
+<li><strong>［ ４ ］非社員契約</strong>：相互会社は原則として契約者が社員となりますが、定款で定めることにより、社員とならない契約者との契約（非社員契約）、すなわち無配当保険の取扱いが可能です。</li>
+<li><strong>［ ５ ］公平性</strong>：配当は、契約者が払い込んだ保険料のうち、剰余の発生に貢献した度合いに応じて公平に分配されなければなりません。これを「契約者平等の原則」といいます。</li>
+</ul>
+<p><em>（注：過去の設問では「剰余金の20%以内を損失塡補等のために積み立てることができる」という趣旨で「20%」が正解となるケースもありました。設問の文脈をよく読むことが重要です。）</em></p>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2021年度 フォームA,B,C 問1-5 / 2024年度 フォームB 問1-5</span>
+</div>
+<div class="question-block">
+<p class="question-title">［契約者配当－②］</p>
+<div class="question-text">
+<p>文中の空欄［ ６ ］～［ 10 ］に入る最も適切なものを選んでください。</p>
+<p>剰余を各利源に区分することを［ ６ ］という。必要に応じて各利源別剰余を保険種類に区分する。３利源を死差益、利差益、費差益という。</p>
+<p>死差益とは危険度の差から生じる益の総称であり、危険差益ともいう。伝統的に死亡率の差により生じる益のウエイトが大きいため死差益という。死亡保険では予定の死亡率より実際が低い場合は死差益が生じるが、年金など生存保険の場合は損が生じる。死亡率の低下は生存保険では危険度の［ ７ ］となるからである。</p>
+<p>利差益とは資産運用利回りが予定利率を［ ８ ］ことにより、生じる益である。</p>
+<p>費差益とは予定事業費と実際との差から生じる益である。</p>
+<p>剰余のほとんどは３利源によるが、それ以外に［ ９ ］がある。契約後一定期間の解約返戻金は、対応する責任準備金より［ 10 ］設定されているのが一般的であるため、その差額が［ ９ ］となる。</p>
+<div class="word-group">
+<table>
+<tr><td>ア． 増加</td><td>イ． 区分解析</td></tr>
+<tr><td>ウ． 償還差益</td><td>エ． 小さく</td></tr>
+<tr><td>オ． 上回る</td><td>カ． 減少</td></tr>
+<tr><td>キ． 利源分析</td><td>ク． 下回る</td></tr>
+<tr><td>ケ． 解約益</td><td>コ． 大きく</td></tr>
+</table>
+</div>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong><br/>
+                                ［ ６ ］：キ．利源分析<br/>
+                                ［ ７ ］：ア．増加<br/>
+                                ［ ８ ］：オ．上回る<br/>
+                                ［ ９ ］：ケ．解約益<br/>
+                                ［ 10 ］：エ．小さく
+                            </div>
+<div class="explanation">
+<h5>完成した文章</h5>
+<p>剰余を各利源に区分することを<strong>利源分析</strong>という。必要に応じて各利源別剰余を保険種類に区分する。３利源を死差益、利差益、費差益という。</p>
+<p>死差益とは危険度の差から生じる益の総称であり、危険差益ともいう。伝統的に死亡率の差により生じる益のウエイトが大きいため死差益という。死亡保険では予定の死亡率より実際が低い場合は死差益が生じるが、年金など生存保険の場合は損が生じる。死亡率の低下は生存保険では危険度の<strong>増加</strong>となるからである。</p>
+<p>利差益とは資産運用利回りが予定利率を<strong>上回る</strong>ことにより、生じる益である。</p>
+<p>費差益とは予定事業費と実際との差から生じる益である。</p>
+<p>剰余のほとんどは３利源によるが、それ以外に<strong>解約益</strong>がある。契約後一定期間の解約返戻金は、対応する責任準備金より<strong>小さく</strong>設定されているのが一般的であるため、その差額が<strong>解約益</strong>となる。</p>
+<h5>解説</h5>
+<ul>
+<li><strong>［ ６ ］利源分析</strong>：決算で生じた剰余金が、どの源泉（利源）から発生したのかを分析すること。死差損益、利差損益、費差損益の３つが主な分析対象です。</li>
+<li><strong>［ ７ ］増加</strong>：生存保険（年金保険など）は「長生きするリスク」に備える保険です。予定よりも死亡率が低下する（＝皆が長生きする）と、保険金の支払総額が増えるため、保険会社にとっては危険度が「増加」し、損失（死差損）が生じます。</li>
+<li><strong>［ ８ ］上回る</strong>：予定利率は、保険料を割り引く際に用いる、あらかじめ約束した運用利回りです。実際の資産運用利回りがこの予定利率を「上回る」と、その差額が利益（利差益）となります。</li>
+<li><strong>［ ９ ］解約益, ［ 10 ］小さく</strong>：早期解約の場合、解約返戻金は、それまでに積み立てられた責任準備金から一定の控除（解約控除）が行われるため、責任準備金よりも「小さく」なります。この差額が保険会社の利益となり、これを「解約益（解約失効益）」と呼びます。</li>
+</ul>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2021年度 フォームA,B,C 問6-10 / 2024年度 フォームB 問6-10</span>
+</div>
+</div>
+<h2 id="section-chapter4">第4章 生命保険商品</h2>
+<div class="chapter-summary">
+<h3>この章のまとめ</h3>
+<ul>
+<li><strong>保険商品の基本型</strong>：人の生死に関する保険は、死亡保険・生存保険・生死混合保険の3つに大別される。代表的な生死混合保険に「養老保険」がある。</li>
+<li><strong>養老保険の仕組み</strong>：死亡保障と満期時の生存保障を組み合わせた商品。構造的には「増加する貯蓄部分」と「減少する保障部分（逓減定期保険）」から成る。</li>
+<li><strong>団体保険</strong>：企業などが契約者となり、従業員などを被保険者とする保険。代表的な「団体定期保険」は保険期間1年で毎年更新される。住宅ローン向けの「団体信用生命保険」もある。</li>
+<li><strong>財形制度</strong>：勤労者の財産形成を支援する制度。「財形年金」と「財形住宅」を合わせて元本550万円まで利子等が非課税となる優遇措置がある。</li>
+</ul>
+</div>
+<div class="chapter">
+<h3 id="section-section4-1">4-1. 生命保険商品の基本型</h3>
+<div class="question-block">
+<p class="question-title">［生死混合保険］</p>
+<div class="question-text">
+<p>次の文章について、正しい場合には「正」、誤っている場合には「誤」を選んでください。</p>
+<p>生死混合保険は、死亡保険と生存保険とを組み合わせたもの、すなわち、被保険者が保険期間内に死亡した場合には死亡保険金が支払われ、満期まで生存していた場合には生存保険金（満期保険金）が支払われる保険である。</p>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong> 正
+                            </div>
+<div class="explanation">
+<h5>解説</h5>
+<p>記述の通り、生死混合保険の定義を正しく説明しています。</p>
+<ul>
+<li><strong>死亡保険</strong>：保険期間中に死亡した場合に保険金が支払われる。</li>
+<li><strong>生存保険</strong>：保険期間満了時に生存していた場合に保険金が支払われる。</li>
+<li><strong>生死混合保険</strong>：上記2つを組み合わせたもので、死亡しても生存しても保険金が支払われます。代表的な商品に<strong>養老保険</strong>があります。</li>
+</ul>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2022年度 フォームA 問32</span>
+</div>
+<div class="question-block">
+<p class="question-title">［養老保険］</p>
+<div class="question-text">
+<p>次の文章について、下線部ＡまたはＢのいずれかが誤っている場合と、Ａ・Ｂともに正しい場合とがあります。ＡまたはＢのいずれかが誤っている場合は、誤っている記号と代わって入るものが最も適切な組み合わせを選択してください。Ａ・Ｂともに正しい場合は、記号Ｃを選択してください。</p>
+<p>養老保険は、(A)<u>生死混合保険</u>の典型的なものであり、その実質的内容は貯蓄部分が年々増加していき、満期時には満期保険金と同額になるので、逓増する貯蓄と(B)<u>逓増定期保険</u>の組み合わされた保険といえる。</p>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong> エ．Ｂ－逓減定期保険
+                            </div>
+<div class="explanation">
+<h5>解説</h5>
+<p>養老保険の構造に関する問題です。</p>
+<ul>
+<li><strong>(A) 生死混合保険</strong>：正しい。養老保険は、死亡保険と生存保険を組み合わせた生死混合保険の代表例です。</li>
+<li><strong>(B) 逓増定期保険</strong>：誤り。養老保険は、満期保険金という目標額に向かって貯蓄部分（責任準備金）が年々増加していきます。一方、死亡時に支払われる保険金額は一定です。この死亡保障部分は、貯蓄部分が増えるにつれて、保険会社が純粋に負担する保障額（危険保険金額）が減少していく構造になっています。つまり、「増加する貯蓄」と「<strong>減少する定期保険（逓減定期保険）</strong>」を組み合わせたものと考えることができます。</li>
+</ul>
+<p>したがって、(B)を「逓減定期保険」に訂正するのが正しいです。</p>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2024年度 フォームB, C 問43</span>
+</div>
+</div>
+<div class="chapter">
+<h3 id="section-section4-2">4-2. 団体保険・団体年金保険</h3>
+<div class="question-block">
+<p class="question-title">［団体保険および団体年金保険の主な保険種類－①］</p>
+<div class="question-text">
+<p>文中の空欄［ １ ］～［ ５ ］に入る最も適切なものを選んでください。</p>
+<p><strong>１．団体定期保険</strong></p>
+<p>個人定期保険と同様、保険期間の途中で被保険者が死亡または所定の高度障害となった場合に保険金が支払われる保険で、保険期間はすべて［ １ ］、保険契約者は団体（代表者）である。保険料のうち団体が負担した部分については会社経理上［ ２ ］とすることができる等の取扱いがある。［ ３ ］団体定期保険は、1996 年度（平成８年度)より、従来の団体定期保険を改定し、団体の弔慰金・死亡退職金規程等の支払財源を保障する部分を「主契約」、従業員死亡に伴い企業が負担する代替雇用者採用・育成費用等の諸費用（企業の経済的損失）を保障する部分を「［ ４ ］・ヴァリュー特約」に区分した商品として、発売している。</p>
+<p><strong>２．団体信用生命保険</strong></p>
+<p>住宅ローン債務を分割返済していく場合に、死亡による債務返済能力の喪失を保障する（支払保険金で残債務を一括返済する）保険で、保険金額が返済に伴う未払債務残高の減少につれて減少していく点に特色がある。具体的には、債務者を被保険者とし、信用［ ５ ］機関を契約者・保険金受取人として加入する。</p>
+<div class="word-group">
+<table>
+<tr><td>ア． 益金</td><td>イ． １年</td></tr>
+<tr><td>ウ． 総合福祉</td><td>エ． 貸与</td></tr>
+<tr><td>オ． ヒューマン</td><td>カ． 総合保障</td></tr>
+<tr><td>キ． ３年</td><td>ク． キャッシュ</td></tr>
+<tr><td>ケ． 損金</td><td>コ． 供与</td></tr>
+</table>
+</div>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong><br/>
+                                ［ １ ］：イ．１年<br/>
+                                ［ ２ ］：ケ．損金<br/>
+                                ［ ３ ］：ウ．総合福祉<br/>
+                                ［ ４ ］：オ．ヒューマン<br/>
+                                ［ ５ ］：コ．供与
+                            </div>
+<div class="explanation">
+<h5>完成した文章</h5>
+<p><strong>１．団体定期保険</strong></p>
+<p>個人定期保険と同様、保険期間の途中で被保険者が死亡または所定の高度障害となった場合に保険金が支払われる保険で、保険期間はすべて<strong>１年</strong>、保険契約者は団体（代表者）である。保険料のうち団体が負担した部分については会社経理上<strong>損金</strong>とすることができる等の取扱いがある。<strong>総合福祉</strong>団体定期保険は、1996 年度（平成８年度)より、従来の団体定期保険を改定し、団体の弔慰金・死亡退職金規程等の支払財源を保障する部分を「主契約」、従業員死亡に伴い企業が負担する代替雇用者採用・育成費用等の諸費用（企業の経済的損失）を保障する部分を「<strong>ヒューマン</strong>・ヴァリュー特約」に区分した商品として、発売している。</p>
+<p><strong>２．団体信用生命保険</strong></p>
+<p>住宅ローン債務を分割返済していく場合に、死亡による債務返済能力の喪失を保障する（支払保険金で残債務を一括返済する）保険で、保険金額が返済に伴う未払債務残高の減少につれて減少していく点に特色がある。具体的には、債務者を被保険者とし、信用<strong>供与</strong>機関を契約者・保険金受取人として加入する。</p>
+<h5>解説</h5>
+<ul>
+<li><strong>［ １ ］１年</strong>：団体定期保険は、原則として保険期間1年の掛け捨ての保険で、毎年更新されます。</li>
+<li><strong>［ ２ ］損金</strong>：法人が支払う団体定期保険の保険料は、一定の要件を満たせば、税務上、費用（損金）として処理できます。</li>
+<li><strong>［ ３ ］総合福祉</strong>, <strong>［ ４ ］ヒューマン</strong>：総合福祉団体定期保険は、従業員の福利厚生（弔慰金など）と、企業自身の損失補填（ヒューマン・ヴァリュー）を組み合わせた商品です。</li>
+<li><strong>［ ５ ］供与</strong>：団体信用生命保険は、住宅ローンなどを提供する金融機関（信用供与機関）が、貸し倒れリスクに備えて契約者となる保険です。</li>
+</ul>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2023年度 フォームB 問1-5</span>
+</div>
+</div>
+<div class="chapter">
+<h3 id="section-section4-3">4-3. その他の保険商品と関連制度</h3>
+<div class="question-block">
+<p class="question-title">［財形保険］</p>
+<div class="question-text">
+<p>次の文章について、下線部ＡまたはＢのいずれかが誤っている場合と、Ａ・Ｂともに正しい場合とがあります。ＡまたはＢのいずれかが誤っている場合は、誤っている記号と代わって入るものが最も適切な組み合わせを選択してください。Ａ・Ｂともに正しい場合は、記号Ｃを選択してください。</p>
+<p>(A)<u>財形年金積立保険</u>に対する税制上の特典は、払込元本(B)<u> 550 万円</u>まで利子や配当金が非課税となり、また、資金の引き出し時においても一定の要件の下で非課税となる。</p>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong> イ．Ａ－財形住宅貯蓄積立保険
+                            </div>
+<div class="explanation">
+<h5>解説</h5>
+<p>勤労者財産形成促進制度（財形制度）に関する問題です。</p>
+<ul>
+<li><strong>(A) 財形年金積立保険</strong>：誤り。財形制度には「一般財形」「財形年金」「財形住宅」の3種類があります。このうち、払込元本550万円までが非課税となるのは、<strong>「財形年金」と「財形住宅」を合わせた金額</strong>です。問題文は「資金の引き出し時においても一定の要件の下で非課税」と年金受取を前提としない記述を含んでいるため、文脈上、(A)を「財形住宅貯蓄積立保険」と訂正し、(B)の550万円を財形年金と合わせた非課税限度額と解釈するのが最も自然です。
+                                        <ul>
+<li><strong>財形年金貯蓄</strong>：元本550万円まで非課税（財形住宅と合わせて）</li>
+<li><strong>財形住宅貯蓄</strong>：元本550万円まで非課税（財形年金と合わせて）</li>
+</ul>
+</li>
+<li><strong>(B) 550 万円</strong>：正しい。上記の通り、財形年金と財形住宅を合わせて元本550万円までが非課税の対象です。</li>
+</ul>
+<p>したがって、(A)を「財形住宅貯蓄積立保険」に訂正するのが適切です。（あるいは、(A)を正しいとした場合、(B)の550万円は財形住宅と合わせた限度額である、という補足理解が必要です。）</p>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2022年度 フォームC 問44</span>
+</div>
+</div>
+<h2 id="section-chapter5">第5章 生命保険会社の経営</h2>
+<div class="chapter-summary">
+<h3>この章のまとめ</h3>
+<ul>
+<li><strong>危険の選択（アンダーライティング）</strong>：保険集団の危険度を均一に保つ（危険均一性の原則）ため、契約引受時に被保険者の健康状態などを審査すること。危険度の高い人ほど保険に加入したがる「逆選択」を防ぐ目的がある。</li>
+<li><strong>資産運用の原則</strong>：契約者から預かった資産を運用する際の基本原則は「安全性」「収益性」「流動性（換金性）」。特に、約束した利回り（予定利率）を上回る収益を安定的に確保することが重要。</li>
+<li><strong>ALM（資産負債統合管理）</strong>：資産と負債を総合的に管理し、金利変動などのリスクをコントロールする経営手法。長期の負債特性を持つ生命保険会社にとって極めて重要。</li>
+<li><strong>組織形態</strong>：保険業法で認められているのは、契約者が社員となる非営利の「相互会社」と、株主が所有する営利目的の「株式会社」の2形態。</li>
+</ul>
+</div>
+<div class="chapter">
+<h3 id="section-section5-1">5-1. 危険の選択（アンダーライティング）</h3>
+<div class="question-block">
+<p class="question-title">［危険の選択－①］</p>
+<div class="question-text">
+<p>文中の空欄［ １ ］～［ ５ ］に入る最も適切なものを選んでください。</p>
+<p>保険が成り立つためには、同一保険料で同一の保障を受ける集団は同質の危険度を有するものの集団でなければならない。これを［ １ ］の原則という。</p>
+<p>一般に、標準以上に危険度の高い人は保険加入希望が強く、また、より［ ２ ］な保険を選ぶ傾向がある。このような現象を逆選択といい、これを避けるために合理的な危険選択が必要となる。</p>
+<p>最初の選択は生命保険募集人が行うのがほとんどであるが、これは生命保険の主たる販売経路が対面であることによる。</p>
+<p>契約の申込みの際、申込者または被保険者は告知をしなければならない。これを告知義務といい、重大な告知を怠った場合、保険者は契約を解除できる。告知の徴求は保険会社が危険選択を行うための重要な手段の一つである。</p>
+<p>危険選択に関しては、［ ３ ］、身体的な面が最も大きいウエイトを占めており、診査にあたる医師を一般的に［ ４ ］という。また、医師ではないが、ある程度の医的知識と保険に関する知識を兼ね備え、一定の資格を有する［ ５ ］が被保険者に面接する制度もある。</p>
+<div class="word-group">
+<table>
+<tr><td>ア． 安全</td><td>イ． 高額</td></tr>
+<tr><td>ウ． 臨床医</td><td>エ． 診査医</td></tr>
+<tr><td>オ． 支払査定士</td><td>カ． 危険均一性</td></tr>
+<tr><td>キ． 低額</td><td>ク． 健康</td></tr>
+<tr><td>ケ． 危険相等</td><td>コ． 生命保険面接士</td></tr>
+</table>
+</div>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong><br/>
+                                ［ １ ］：カ．危険均一性<br/>
+                                ［ ２ ］：イ．高額<br/>
+                                ［ ３ ］：ク．健康<br/>
+                                ［ ４ ］：エ．診査医<br/>
+                                ［ ５ ］：コ．生命保険面接士
+                            </div>
+<div class="explanation">
+<h5>完成した文章</h5>
+<p>保険が成り立つためには、同一保険料で同一の保障を受ける集団は同質の危険度を有するものの集団でなければならない。これを<strong>危険均一性</strong>の原則という。</p>
+<p>一般に、標準以上に危険度の高い人は保険加入希望が強く、また、より<strong>高額</strong>な保険を選ぶ傾向がある。このような現象を逆選択といい、これを避けるために合理的な危険選択が必要となる。</p>
+<p>（中略）</p>
+<p>危険選択に関しては、<strong>健康</strong>、身体的な面が最も大きいウエイトを占めており、診査にあたる医師を一般的に<strong>診査医</strong>という。また、医師ではないが、ある程度の医的知識と保険に関する知識を兼ね備え、一定の資格を有する<strong>生命保険面接士</strong>が被保険者に面接する制度もある。</p>
+<h5>解説</h5>
+<ul>
+<li><strong>［ １ ］危険均一性</strong>：保険集団を構成する各人の危険度が均一でなければ、公平な保険料設定ができないという原則。給付・反対給付均等の原則とも関連します。</li>
+<li><strong>［ ２ ］高額</strong>：健康に不安がある人ほど、手厚い保障（高額な保険金）を求める傾向があります。これを「逆選択（adverse selection）」と呼びます。</li>
+<li><strong>［ ３ ］健康</strong>：危険選択（アンダーライティング）で最も重視されるのは、被保険者の健康状態や身体的な状況です。</li>
+<li><strong>［ ４ ］診査医</strong>：保険会社が契約引受の判断のために診査を依頼する医師のことです。嘱託医とも呼ばれます。</li>
+<li><strong>［ ５ ］生命保険面接士</strong>：医師ではありませんが、専門的なトレーニングを受けた面接士が被保険者と面談し、健康状態や生活習慣などを確認する制度があります。パラメディカル査定とも呼ばれます。</li>
+</ul>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2023年度 フォームA 問1-5</span>
+</div>
+<div class="question-block">
+<p class="question-title">［危険選択の必要性と意義について］</p>
+<div class="question-text">
+<p>次の文章のうち、誤っているものを１つ選んでください。</p>
+<p>ア．同一保険料で同一の保障を受ける集団は同質の危険度を有するものの集団でなければならない。これを危険均一性の原則という。</p>
+<p>イ．死亡保険において、より高い死亡率特性を有する者が標準死亡率を示す集団に混入し、その者に対しても同一保障・同一保険料が適用された場合、集団の利益を損ねることになる。</p>
+<p>ウ．一般に、標準以上に危険度の高い人は保険加入希望が強く、また、より高額な保険を選ぶ傾向がある。このような現象を第１次選択といい、これを避けるために合理的な危険選択が必要となる。</p>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong> ウ
+                            </div>
+<div class="explanation">
+<h5>解説</h5>
+<ul>
+<li><strong>ア（正しい）</strong>：危険均一性の原則の正しい定義です。</li>
+<li><strong>イ（正しい）</strong>：危険度の高い人が標準的な集団に入ると、集団全体の死亡率が予定より高くなり、保険財政が悪化します。これは他の健全な契約者の利益を損なうことになります。</li>
+<li><strong>ウ（誤り）</strong>：標準以上に危険度の高い人が積極的に保険に加入しようとする現象は「<strong>逆選択</strong>」といいます。「第１次選択」とは、一般に生命保険募集人が行う初期段階の危険選択のことを指すため、記述は誤りです。</li>
+</ul>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2022年度 フォームA 問27</span>
+</div>
+</div>
+<div class="chapter">
+<h3 id="section-section5-2">5-2. 資産運用の原則と現状</h3>
+<div class="question-block">
+<p class="question-title">［金融機関としての生命保険会社－①］</p>
+<div class="question-text">
+<p>文中の空欄［ １ ］～［ ５ ］に入る最も適切なものを選んでください。</p>
+<p><strong>(1)生命保険会社の資金の性格</strong></p>
+<p>生命保険会社の資金は大別すると負債と純資産によって構成されている。負債の大部分は［ １ ］で、［ ２ ］、支払備金、契約者配当準備金から構成される。その中でも、保険料の積立金部分からなる［ ２ ］が大半を占めている。</p>
+<p><strong>(2)資産運用の原則</strong></p>
+<p>ア）［ ３ ］性の原則</p>
+<p>［ ３ ］性の確保は資産運用の第一の基本目的である。生保会社の資産の大部分が、契約者から払い込まれた保険料を源泉としているからである。</p>
+<p>イ）［ ４ ］性の原則</p>
+<p>［ ３ ］性を追求していく一方で、［ ４ ］性を確保することも重要な基本原則である。すなわち、保険料は［ ５ ］で割り引かれていることから［ ５ ］に相当する［ ４ ］確保は最低限必要である。</p>
+<div class="word-group">
+<table>
+<tr><td>ア． 安全</td><td>イ． 保険契約準備金</td></tr>
+<tr><td>ウ． 利益準備金</td><td>エ． 責任準備金</td></tr>
+<tr><td>オ． 確定</td><td>カ． 予定利率</td></tr>
+<tr><td>キ． 投機</td><td>ク． 予定死亡率</td></tr>
+<tr><td>ケ． 資本準備金</td><td>コ． 収益</td></tr>
+</table>
+</div>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong><br/>
+                                ［ １ ］：イ．保険契約準備金<br/>
+                                ［ ２ ］：エ．責任準備金<br/>
+                                ［ ３ ］：ア．安全<br/>
+                                ［ ４ ］：コ．収益<br/>
+                                ［ ５ ］：カ．予定利率
+                            </div>
+<div class="explanation">
+<h5>完成した文章</h5>
+<p><strong>(1)生命保険会社の資金の性格</strong></p>
+<p>生命保険会社の資金は大別すると負債と純資産によって構成されている。負債の大部分は<strong>保険契約準備金</strong>で、<strong>責任準備金</strong>、支払備金、契約者配当準備金から構成される。その中でも、保険料の積立金部分からなる<strong>責任準備金</strong>が大半を占めている。</p>
+<p><strong>(2)資産運用の原則</strong></p>
+<p>ア）<strong>安全</strong>性の原則</p>
+<p><strong>安全</strong>性の確保は資産運用の第一の基本目的である。生保会社の資産の大部分が、契約者から払い込まれた保険料を源泉としているからである。</p>
+<p>イ）<strong>収益</strong>性の原則</p>
+<p><strong>安全</strong>性を追求していく一方で、<strong>収益</strong>性を確保することも重要な基本原則である。すなわち、保険料は<strong>予定利率</strong>で割り引かれていることから<strong>予定利率</strong>に相当する<strong>収益</strong>確保は最低限必要である。</p>
+<h5>解説</h5>
+<ul>
+<li><strong>［ １ ］保険契約準備金, ［ ２ ］責任準備金</strong>：保険会社の負債の大部分を占めるのが「保険契約準備金」です。これは、①将来の保険金・年金支払いのための「責任準備金」、②既に発生したが未払いの保険金等のための「支払備金」、③契約者への配当のための「契約者配当準備金」から構成されます。中でも「責任準備金」がその大半を占めます。</li>
+<li><strong>［ ３ ］安全</strong>：資産運用の最も重要な原則は「安全性」です。預かった保険料を安全に管理し、将来の支払いに確実に備える必要があります。</li>
+<li><strong>［ ４ ］収益, ［ ５ ］予定利率</strong>：安全性を確保しつつ、「収益性」も追求しなければなりません。なぜなら、保険料はあらかじめ「予定利率」で割り引かれているため、少なくとも予定利率分の収益を上げないと、保険会社の経営が成り立たなくなる（逆ざや）からです。</li>
+</ul>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2022年度 フォームB 問1-5</span>
+</div>
+<div class="question-block">
+<p class="question-title">［資産運用－①］</p>
+<div class="question-text">
+<p>文中の空欄［ 11 ］～［ 15 ］に入る最も適切なものを選んでください。</p>
+<p>一般勘定における生命保険商品は長期にわたって［ 11 ］を保証している他に類をみない商品であり、資産運用にあたっては長期的に安定した収益の確保が要求されている。しかし、近年の歴史的な低金利をはじめとした非常に厳しい運用環境の中、運用成果が保証利率を下回る状態、いわゆる「［ 12 ］」が長期間続いてきた。 生命保険会社によっては解消傾向にあるとはいうものの、楽観できる状況にはない。加えて、外資系・損保系の生命保険会社も市場に参入してきており、競争の激化が進んでいる。このような状況下で、生命保険会社の資産運用はそれぞれの体力に見合ったリスクを取りつつ、運用収益を極大化できるように体制を整えることが求められている。そのような中で大きな柱として各社が取組むべきものがリスク管理体制と［ 13 ］体制の整備・充実である。</p>
+<p>リスク管理体制面では、［ 14 ］、事務システム等に係るリスクの排除が求められる一方、信用リスク・市場リスクについては一定レベルのリスクテイクが収益向上につながることとなる。しかし、やみくもにリスクを取ることは大きな損失の発生をもたらすこととなる。生命保険会社は、適切な計測方法を用いて客観的に自己の有するリスク量を把握しつつ、収益向上を追求できる体制を構築してきている。</p>
+<p>［ 13 ］については従来より研究がなされてきたが、1996 年（平成８年）の区分経理の導入を契機として近年急速に取組みが進んだ。但し、保障性商品を中心として極めて長期の［ 15 ］を有するために、それに対応する運用資産の種類・市場規模が充分ではなく、各社ともより良い管理体制の構築を模索している状況にある。</p>
+<div class="word-group">
+<table>
+<tr><td>ア． 順ざや</td><td>イ． 負債特性</td></tr>
+<tr><td>ウ． 予定利率</td><td>エ． 資産特性</td></tr>
+<tr><td>オ． 逆ざや</td><td>カ． 法令等の遵守（コンプライアンス）</td></tr>
+<tr><td>キ． 予定死亡率</td><td>ク． 生保共同センター（ＬＩＮＣ）</td></tr>
+<tr><td>ケ． 情報化</td><td>コ． ＡＬＭ（資産負債統合管理）</td></tr>
+</table>
+</div>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong><br/>
+                                ［ 11 ］：ウ．予定利率<br/>
+                                ［ 12 ］：オ．逆ざや<br/>
+                                ［ 13 ］：コ．ＡＬＭ（資産負債統合管理）<br/>
+                                ［ 14 ］：カ．法令等の遵守（コンプライアンス）<br/>
+                                ［ 15 ］：イ．負債特性
+                            </div>
+<div class="explanation">
+<h5>完成した文章</h5>
+<p>一般勘定における生命保険商品は長期にわたって<strong>予定利率</strong>を保証している他に類をみない商品であり、資産運用にあたっては長期的に安定した収益の確保が要求されている。しかし、近年の歴史的な低金利をはじめとした非常に厳しい運用環境の中、運用成果が保証利率を下回る状態、いわゆる「<strong>逆ざや</strong>」が長期間続いてきた。（中略）そのような中で大きな柱として各社が取組むべきものがリスク管理体制と<strong>ＡＬＭ（資産負債統合管理）</strong>体制の整備・充実である。</p>
+<p>リスク管理体制面では、<strong>法令等の遵守（コンプライアンス）</strong>、事務システム等に係るリスクの排除が求められる一方、信用リスク・市場リスクについては一定レベルのリスクテイクが収益向上につながることとなる。（中略）</p>
+<p><strong>ＡＬＭ（資産負債統合管理）</strong>については従来より研究がなされてきたが、1996 年（平成８年）の区分経理の導入を契機として近年急速に取組みが進んだ。但し、保障性商品を中心として極めて長期の<strong>負債特性</strong>を有するために、それに対応する運用資産の種類・市場規模が充分ではなく、各社ともより良い管理体制の構築を模索している状況にある。</p>
+<h5>解説</h5>
+<ul>
+<li><strong>［ 11 ］予定利率</strong>：生命保険会社が契約者にあらかじめ約束する運用利回り。</li>
+<li><strong>［ 12 ］逆ざや</strong>：実際の運用利回りが予定利率を下回る状態。保険会社の収益を圧迫する大きな要因です。</li>
+<li><strong>［ 13 ］ＡＬＭ（資産負債統合管理）</strong>：Asset Liability Managementの略。資産（Asset）と負債（Liability）を総合的に管理し、金利変動リスクなどをコントロールする経営手法。</li>
+<li><strong>［ 14 ］法令等の遵守（コンプライアンス）</strong>：リスク管理の基本として、オペレーショナルリスク（事務ミスや不正など）やレピュテーショナルリスク（評判の悪化）を防ぐため、法令や社内規程の遵守が求められます。</li>
+<li><strong>［ 15 ］負債特性</strong>：生命保険の負債（将来の保険金支払義務）は、数十年にもわたる非常に長期的な性質を持っています。この長期の負債に見合うような、長期で安定した運用先（資産）を見つけることがALMの課題となります。</li>
+</ul>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2024年度 フォームB, C 問11-15</span>
+</div>
+</div>
+<div class="chapter">
+<h3 id="section-section5-3">5-3. 生命保険会社の組織形態</h3>
+<div class="question-block">
+<p class="question-title">［保険業を行う会社の性質］</p>
+<div class="question-text">
+<p>次の文章について、下線部ＡまたはＢのいずれかが誤っている場合と、Ａ・Ｂともに正しい場合とがあります。ＡまたはＢのいずれかが誤っている場合は、誤っている記号と代わって入るものが最も適切な組み合わせを選択してください。Ａ・Ｂともに正しい場合は、記号Ｃを選択してください。</p>
+<p>(A)<u>相互会社</u>は契約者が社員となり、自ら会社の構成員となって組織する会社である。契約者相互の利益を目的とするもので、営利も公益も目的としない中間的な(B)<u>社団法人</u>である。</p>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong> オ．Ｃ（Ａ・Ｂともに正しい）
+                            </div>
+<div class="explanation">
+<h5>解説</h5>
+<p>この文章は、保険業法で認められている会社形態の一つである「相互会社」について、正しく説明しています。</p>
+<ul>
+<li><strong>(A) 相互会社</strong>：正しい。保険契約者自身が会社の構成員（社員）となり、相互扶助の精神で運営される非営利の組織形態です。</li>
+<li><strong>(B) 社団法人</strong>：正しい。社団法人は、一定の目的のために結合した「人の集まり（社員）」を基礎とする法人です。相互会社は、契約者という人の集まりによって構成されるため、社団法人に分類されます。これに対し、特定の目的のために拠出された「財産の集まり」を基礎とするのが財団法人です。</li>
+</ul>
+<p>もう一つの会社形態である<strong>株式会社</strong>は、株主が会社の所有者であり、営利を目的とする営利社団法人です。</p>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2024年度 フォームB, C 問48</span>
+</div>
+<div class="question-block">
+<p class="question-title">［組織変更］</p>
+<div class="question-text">
+<p>次の文章について、正しい場合には「正」、誤っている場合には「誤」を選んでください。</p>
+<p>2000 年（平成12 年）の保険業法の改正により、１株未満の割当て部分については一括で株式を売却し金銭で交付する制度が導入されたことにより、相互会社から株式会社への組織変更が容易になった。</p>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong> 正
+                            </div>
+<div class="explanation">
+<h5>解説</h5>
+<p>記述の通りです。2000年の保険業法改正は、相互会社の株式会社化を促進する上で重要な役割を果たしました。</p>
+<p>相互会社が株式会社に組織変更する際、社員（契約者）に対して株式を割り当てますが、契約内容によっては割り当てられる株式が1株に満たない端数（1株未満）となるケースが多数発生します。改正前の法律ではこの端数処理が煩雑で、組織変更の大きな障害となっていました。</p>
+<p>2000年の改正で、この<strong>1株未満の株式を一括して市場で売却し、その代金を金銭で元社員（契約者）に交付する</strong>ことが可能になりました。これにより手続きが大幅に簡素化され、相互会社から株式会社への組織変更がしやすくなりました。</p>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2022年度 フォームA, B, C 問37</span>
+</div>
+</div>
+<div class="chapter">
+<h3 id="section-section5-4">5-4. 業界共通システム</h3>
+<div class="question-block">
+<p class="question-title">［生保業界共通のシステム］</p>
+<div class="question-text">
+<p>次の文章について、下線部ＡまたはＢのいずれかが誤っている場合と、Ａ・Ｂともに正しい場合とがあります。ＡまたはＢのいずれかが誤っている場合は、誤っている記号と代わって入るものが最も適切な組み合わせを選択してください。Ａ・Ｂともに正しい場合は、記号Ｃを選択してください。</p>
+<p>業界共通のシステムは、(A)<u>再保険</u>の共同契約等生保各社が共同で契約を結ぶ場合に必要であり、(B)<u>生保共同センター（ＬＩＮＣ）</u>が設置され、業界内ネットワークの共通基盤となっている。</p>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong> ア．Ａ－団体定期保険
+                            </div>
+<div class="explanation">
+<h5>解説</h5>
+<ul>
+<li><strong>(A) 再保険</strong>：誤り。業界共通のシステムが必要となる共同契約の代表例は、<strong>団体定期保険</strong>や<strong>財形保険</strong>です。これらは、複数の保険会社が共同で一つの大きな契約を引き受ける（共同保険）ため、各社間で情報をやり取りする共通のプラットフォームが必要となります。</li>
+<li><strong>(B) 生保共同センター（ＬＩＮＣ）</strong>：正しい。LINC (Life Insurance Network Center) は、まさにこの団体保険等の共同契約業務を処理するために設置された、生命保険業界共通のネットワークシステムです。</li>
+</ul>
+<p>したがって、(A)を「団体定期保険」に訂正するのが正しいです。</p>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2022年度 フォームA, B, C 問50</span>
+</div>
+</div>
+<h2 id="section-chapter6">第6章 生命保険と社会</h2>
+<div class="chapter-summary">
+<h3>この章のまとめ</h3>
+<ul>
+<li><strong>国民経済における役割</strong>：生命保険は、万一の際の「経済的保障機能」と、集めた保険料を産業界に供給する「金融機能」という2つの大きな役割を担い、国民経済に貢献している。</li>
+<li><strong>社会構造の変化</strong>：日本の「急速な少子高齢化」は、社会保障制度に大きな影響を与えている。平均寿命の伸長と出生率の低下により、現役世代の高齢者扶養負担が増大している。</li>
+<li><strong>社会保障制度</strong>：国の保障制度は「社会保険」「公的扶助」「社会福祉」が三本柱。生命保険は、これらの公的保障を補完する「私的保障」として重要な役割を果たす。</li>
+<li><strong>介護保険制度</strong>：被保険者は65歳以上の第1号と40～64歳の第2号に分かれる。第2号は老化に起因する特定疾病の場合のみ給付対象となる点が重要。</li>
+</ul>
+</div>
+<div class="chapter">
+<h3 id="section-section6-1">6-1. 国民経済における生命保険</h3>
+<div class="question-block">
+<p class="question-title">［国民経済における生命保険］</p>
+<div class="question-text">
+<p>次の文章について、下線部ＡまたはＢのいずれかが誤っている場合と、Ａ・Ｂともに正しい場合とがあります。ＡまたはＢのいずれかが誤っている場合は、誤っている記号と代わって入るものが最も適切な組み合わせを選択してください。Ａ・Ｂともに正しい場合は、記号Ｃを選択してください。</p>
+<p>日本の生命保険事業の国民経済における役割とは、生命保険契約に基づき遂行している「(A)<u>社会保障機能</u>」と、保険料を原資とする生命保険資産の運用による「(B)<u>金融機能</u>」である。</p>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong> イ．Ａ－経済的保障
+                            </div>
+<div class="explanation">
+<h5>解説</h5>
+<p>生命保険が国民経済で果たす2大機能に関する問題です。</p>
+<ul>
+<li><strong>(A) 社会保障機能</strong>：誤り。生命保険は、死亡や病気、老後といったリスクに対して金銭的な備えを提供する「<strong>経済的保障機能</strong>」を持っています。これは公的な社会保障制度を補完する役割を担いますが、「社会保障機能」そのものではありません。生命保険はあくまで私的な契約に基づく保障です。</li>
+<li><strong>(B) 金融機能</strong>：正しい。生命保険会社は、契約者から集めた膨大な保険料を、株式や債券、貸付金などで運用します。これにより、産業界へ長期・安定的な資金を供給する「金融機能」を果たしています。</li>
+</ul>
+<p>したがって、(A)を「経済的保障」に訂正するのが正しいです。</p>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2022年度 フォームB, 2024年度 フォームB 問46</span>
+</div>
+</div>
+<div class="chapter">
+<h3 id="section-section6-2">6-2. 社会構造の変化と生命保険</h3>
+<div class="question-block">
+<p class="question-title">［社会構造の変化－①］</p>
+<div class="question-text">
+<p>文中の空欄［ 11 ］～［ 15 ］に入る最も適切なものを選んでください。</p>
+<p>日本人の［ 11 ］は、厚生労働省令和２年簡易生命表によれば、男性81.64 歳、女性87.74 歳となっており、日本は今や世界トップクラスの長寿国である。</p>
+<p>［ 11 ］の延びと出生数の減少に伴って、全人口に占める高齢者の割合が高まってきている。国連では老年人口割合が［ 12 ］％を超えた国を人口の高齢化が進んでいる国と見なしている。日本における高齢化の特徴は、先進諸国と比べそのテンポが極めて［ 13 ］点にある。</p>
+<p>高齢化がもたらす最大の問題は、高齢者［ 14 ］負担が重くなることである。65 歳以上人口１人を何人の［ 15 ］歳人口で支えているかを見てみると、2021 年（令和３年）には2.0 人、2054 年（令和36 年）には1.4人に減少し、働き手による高齢者［ 14 ］負担は高まっていく見通しである。</p>
+<div class="word-group">
+<table>
+<tr><td>ア． 遅い</td><td>イ． 健康寿命</td></tr>
+<tr><td>ウ． ７</td><td>エ． ９</td></tr>
+<tr><td>オ． 雇用</td><td>カ． 扶養</td></tr>
+<tr><td>キ． 速い</td><td>ク． 平均寿命</td></tr>
+<tr><td>ケ． 18 ～ 64</td><td>コ． 15 ～ 64</td></tr>
+</table>
+</div>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong><br/>
+                                ［ 11 ］：ク．平均寿命<br/>
+                                ［ 12 ］：ウ．７<br/>
+                                ［ 13 ］：キ．速い<br/>
+                                ［ 14 ］：カ．扶養<br/>
+                                ［ 15 ］：コ．15 ～ 64
+                            </div>
+<div class="explanation">
+<h5>完成した文章</h5>
+<p>日本人の<strong>平均寿命</strong>は、厚生労働省令和２年簡易生命表によれば、男性81.64 歳、女性87.74 歳となっており、日本は今や世界トップクラスの長寿国である。</p>
+<p><strong>平均寿命</strong>の延びと出生数の減少に伴って、全人口に占める高齢者の割合が高まってきている。国連では老年人口割合が<strong>７</strong>％を超えた国を人口の高齢化が進んでいる国と見なしている。日本における高齢化の特徴は、先進諸国と比べそのテンポが極めて<strong>速い</strong>点にある。</p>
+<p>高齢化がもたらす最大の問題は、高齢者<strong>扶養</strong>負担が重くなることである。65 歳以上人口１人を何人の<strong>15 ～ 64</strong>歳人口で支えているかを見てみると、2021 年（令和３年）には2.0 人、2054 年（令和36 年）には1.4人に減少し、働き手による高齢者<strong>扶養</strong>負担は高まっていく見通しである。</p>
+<h5>解説</h5>
+<ul>
+<li><strong>［ 11 ］平均寿命</strong>：0歳時点での平均余命のこと。日本の長寿化を示す代表的な指標です。</li>
+<li><strong>［ 12 ］７</strong>：国連の定義では、65歳以上の老年人口が総人口に占める割合（高齢化率）によって、7%超で「高齢化社会」、14%超で「高齢社会」、21%超で「超高齢社会」と分類されます。</li>
+<li><strong>［ 13 ］速い</strong>：日本の高齢化は、欧米の先進国が長い年月をかけて経験した変化を、極めて短期間で達成（到達）したという特徴があります。</li>
+<li><strong>［ 14 ］扶養</strong>：高齢化により、年金や医療・介護などの社会保障費用が増大し、現役世代の高齢者扶養負担が重くなります。</li>
+<li><strong>［ 15 ］15 ～ 64</strong>：高齢者1人を支える現役世代の人数を見る際、生産年齢人口である「15～64歳」の人口が用いられます。</li>
+</ul>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2022年度 フォームA, B, C 問11-15</span>
+</div>
+<div class="question-block">
+<p class="question-title">［社会構造の変化－②］</p>
+<div class="question-text">
+<p>文中の空欄［ 16 ］～［ 20 ］に入る最も適切なものを選んでください。</p>
+<p>社会保障給付費を増大させる主要な要因となっているのは、高齢者の増加による医療費の増大と、［ 16 ］給付額の増大である。国民一人が生涯に必要とする医療費の約半分が［ 17 ］歳以上で必要（生涯医療費の2018 年度（平成30 年度）推計）になり、高齢化の進展は確実に医療費の増大を招いている。また、社会保障給付費のうち、一番多いのは［ 16 ］であり、実に44.7％を占めている（令和元年度社会保障費用統計）。</p>
+<p>一方、少子化が急速に進行している。［ 18 ］は年々低下し2005 年度（平成17 年度）には1.26 となり、出生数が死亡数を［ 19 ］人口が減少するという歴史的転換点を迎えることとなった。少子化のもっとも大きな原因は晩婚化・非婚化である。</p>
+<p>また、女性の雇用者数は着実に増加しており、特に25 歳から34 歳までの女性や50 歳台の有配偶女性の［ 20 ］は、1985 年（昭和60 年）比で大きく伸びている（平成27 年国勢調査）。</p>
+<div class="word-group">
+<table>
+<tr><td>ア． 上回って</td><td>イ． 合計特殊出生率</td></tr>
+<tr><td>ウ． 未婚率</td><td>エ． 年金</td></tr>
+<tr><td>オ． 下回って</td><td>カ． 合計特定育成率</td></tr>
+<tr><td>キ． 失業</td><td>ク． 65</td></tr>
+<tr><td>ケ． 70</td><td>コ． 労働力率</td></tr>
+</table>
+</div>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong><br/>
+                                ［ 16 ］：エ．年金<br/>
+                                ［ 17 ］：ケ．70<br/>
+                                ［ 18 ］：イ．合計特殊出生率<br/>
+                                ［ 19 ］：オ．下回って<br/>
+                                ［ 20 ］：コ．労働力率
+                            </div>
+<div class="explanation">
+<h5>完成した文章</h5>
+<p>社会保障給付費を増大させる主要な要因となっているのは、高齢者の増加による医療費の増大と、<strong>年金</strong>給付額の増大である。国民一人が生涯に必要とする医療費の約半分が<strong>70</strong>歳以上で必要（生涯医療費の2018 年度（平成30 年度）推計）になり、高齢化の進展は確実に医療費の増大を招いている。また、社会保障給付費のうち、一番多いのは<strong>年金</strong>であり、実に44.7％を占めている（令和元年度社会保障費用統計）。</p>
+<p>一方、少子化が急速に進行している。<strong>合計特殊出生率</strong>は年々低下し2005 年度（平成17 年度）には1.26 となり、出生数が死亡数を<strong>下回って</strong>人口が減少するという歴史的転換点を迎えることとなった。少子化のもっとも大きな原因は晩婚化・非婚化である。</p>
+<p>また、女性の雇用者数は着実に増加しており、特に25 歳から34 歳までの女性や50 歳台の有配偶女性の<strong>労働力率</strong>は、1985 年（昭和60 年）比で大きく伸びている（平成27 年国勢調査）。</p>
+<h5>解説</h5>
+<ul>
+<li><strong>［ 16 ］年金</strong>：社会保障給付費の内訳で最も大きな割合を占めるのは「年金」であり、次いで「医療」です。</li>
+<li><strong>［ 17 ］70</strong>：生涯医療費の約半分は70歳以降に集中しており、高齢化が医療費を増大させる大きな要因となっています。</li>
+<li><strong>［ 18 ］合計特殊出生率</strong>：一人の女性が生涯に産む子どもの数の平均を示す指標。少子化の動向を見る上で重要なデータです。</li>
+<li><strong>［ 19 ］下回って</strong>：2005年に日本の人口は、死亡数が出生数を上回る「自然減」に転じました。</li>
+<li><strong>［ 20 ］労働力率</strong>：15歳以上人口に占める労働力人口（就業者＋完全失業者）の割合。女性の社会進出が進み、労働力率が上昇していることを示しています。</li>
+</ul>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2022年度 フォームA, B, C 問16-20</span>
+</div>
+</div>
+<div class="chapter">
+<h3 id="section-section6-3">6-3. 社会保障制度</h3>
+<div class="question-block">
+<p class="question-title">［狭義の社会保障制度－①］</p>
+<div class="question-text">
+<p>文中の空欄［ １ ］～［ ５ ］に入る最も適切なものを選んでください。</p>
+<p>社会保障制度は、狭義では、社会保険制度、公的扶助制度および社会扶助制度の３つの制度から成っている。</p>
+<p><strong>（１）社会保険制度</strong></p>
+<p>社会保険は、［ １ ］を前提としての権利の行使であり、現行の社会保険制度は、医療保険部門、介護保険部門、年金保険部門、雇用保険部門および災害補償保険部門の各部門から成っている。</p>
+<p>＜医療保険部門＞</p>
+<p>医療保険部門は、以下の７つの制度に分かれている。</p>
+<p>ａ．健康保険制度 ［ ２ ］制度, 組合管掌保険制度</p>
+<p>ｂ．船員保険制度</p>
+<p>ｃ．［ ３ ］共済組合制度</p>
+<p>ｄ．地方公務員等共済組合制度</p>
+<p>ｅ．私立学校教職員共済制度</p>
+<p>ｆ．［ ４ ］制度</p>
+<p>ｇ．［ ５ ］医療制度（長寿医療制度）</p>
+<div class="word-group">
+<table>
+<tr><td>ア． 政府管掌保険</td><td>イ． 保険料の拠出</td></tr>
+<tr><td>ウ． 国会・地方議員</td><td>エ． 後期高齢者</td></tr>
+<tr><td>オ． 全国健康保険協会管掌保険</td><td>カ． 納税</td></tr>
+<tr><td>キ． 国民健康保険</td><td>ク． 老人福祉</td></tr>
+<tr><td>ケ． 国家公務員</td><td>コ． 国民医療保険</td></tr>
+</table>
+</div>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong><br/>
+                                ［ １ ］：イ．保険料の拠出<br/>
+                                ［ ２ ］：オ．全国健康保険協会管掌保険<br/>
+                                ［ ３ ］：ケ．国家公務員<br/>
+                                ［ ４ ］：キ．国民健康保険<br/>
+                                ［ ５ ］：エ．後期高齢者
+                            </div>
+<div class="explanation">
+<h5>完成した文章</h5>
+<p><strong>（１）社会保険制度</strong></p>
+<p>社会保険は、<strong>保険料の拠出</strong>を前提としての権利の行使であり、（中略）</p>
+<p>＜医療保険部門＞</p>
+<p>ａ．健康保険制度 <strong>全国健康保険協会管掌保険</strong>制度, 組合管掌保険制度</p>
+<p>ｃ．<strong>国家公務員</strong>共済組合制度</p>
+<p>ｆ．<strong>国民健康保険</strong>制度</p>
+<p>ｇ．<strong>後期高齢者</strong>医療制度（長寿医療制度）</p>
+<h5>解説</h5>
+<ul>
+<li><strong>［ １ ］保険料の拠出</strong>：社会保険は、被保険者が保険料を支払う（拠出する）ことを前提に、給付を受ける権利が発生する制度です。</li>
+<li><strong>［ ２ ］全国健康保険協会管掌保険</strong>：主に中小企業の従業員が加入する健康保険で、「協会けんぽ」と呼ばれます。大企業の従業員は「組合管掌健康保険（組合健保）」に加入します。</li>
+<li><strong>［ ３ ］国家公務員</strong>：公務員が加入する医療保険は、共済組合によって運営されています。</li>
+<li><strong>［ ４ ］国民健康保険</strong>：自営業者や無職の人など、他の医療保険に加入していない人が加入する制度です。</li>
+<li><strong>［ ５ ］後期高齢者</strong>：原則として75歳以上の人が加入する独立した医療制度です。</li>
+</ul>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2022年度 フォームC 問1-5</span>
+</div>
+<div class="question-block">
+<p class="question-title">［介護保険制度について］</p>
+<div class="question-text">
+<p>次の文章のうち、正しいものを１つ選んでください。</p>
+<p>ア．介護保険制度の被保険者は、75 歳以上を第１号被保険者とし、40 歳～75 歳未満の医療保険加入者を第２号被保険者とする。</p>
+<p>イ．第１号被保険者は、原因を問わず常に介護が必要な状態（要介護状態）あるいは日常生活に支援が必要な状態（要支援状態）であれば保険給付の対象となる。</p>
+<p>ウ．第１号被保険者および第２号被保険者の保険料は、各市町村ごとに基準保険料（所得段階別の定額保険料）が設定されている。</p>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong> イ
+                            </div>
+<div class="explanation">
+<h5>解説</h5>
+<ul>
+<li><strong>ア（誤り）</strong>：被保険者の年齢区分が誤っています。正しくは、<strong>第1号被保険者は65歳以上</strong>、第2号被保険者は40歳～65歳未満の医療保険加入者です。</li>
+<li><strong>イ（正しい）</strong>：記述の通りです。<strong>第1号被保険者（65歳以上）</strong>は、介護が必要になった原因を問われずに給付対象となります。一方、<strong>第2号被保険者（40～64歳）</strong>は、老化に起因する特定疾病（16種類）が原因で要介護・要支援状態になった場合にのみ給付対象となります。</li>
+<li><strong>ウ（誤り）</strong>：保険料の設定方法が誤っています。<strong>第1号被保険者</strong>の保険料は、市町村ごとに所得段階別の定額保険料が設定されます。しかし、<strong>第2号被保険者</strong>の保険料は、加入している医療保険（健康保険や国民健康保険など）の算定方法に基づいて決定され、医療保険料と一体で徴収されます。</li>
+</ul>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2022年度 フォームA, B, C 問23</span>
+</div>
+</div>
+<div class="chapter">
+<h3 id="section-section6-4">6-4. 生活設計と生命保険</h3>
+<div class="question-block">
+<p class="question-title">［生活設計］</p>
+<div class="question-text">
+<p>次の文章について、正しい場合には「正」、誤っている場合には「誤」を選んでください。</p>
+<p>生活設計には、毎月の収入を中心に現在の家計における費用のバランスをどうとるかを考える短期の生活設計と、住宅・教育・結婚・老後などの目標を達成するためにどのような経済準備をしていくか、そのための資産対策としてどのような家計ポートフォリオ（資産配分）が適切かを考える長期の生活設計がある。</p>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong> 正
+                            </div>
+<div class="explanation">
+<h5>解説</h5>
+<p>記述の通り、生活設計（ライフプランニング）の短期的な視点と長期的な視点を正しく説明しています。</p>
+<ul>
+<li><strong>短期の生活設計</strong>：日々の家計管理。キャッシュフローの最適化。</li>
+<li><strong>長期の生活設計</strong>：ライフイベント（住宅購入、子の教育、老後など）に備えた資産形成。家計のバランスシートの最適化。</li>
+</ul>
+<p>生命保険は、特に長期の生活設計において、万一の死亡リスクや病気・ケガによる収入減、長生きによる老後資金不足といった不測の事態に備えるための重要なツールとなります。</p>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2022年度 フォームC 問36</span>
+</div>
+</div>
+<h2 id="section-chapter7">第7章 監督・規制と消費者保護</h2>
+<div class="chapter-summary">
+<h3>この章のまとめ</h3>
+<ul>
+<li><strong>保険業法と監督</strong>：保険事業は「保険業法」に基づき運営され、主務大臣である内閣総理大臣（実務上は金融庁）による「実体的監督主義」の下で厳しく監督される。目的は「保険契約者等の保護」。</li>
+<li><strong>保険募集の規制</strong>：募集人は内閣総理大臣の登録が必要で、原則一社専属。保険業法では虚偽説明などの「禁止行為」が定められている。</li>
+<li><strong>消費者保護制度</strong>：「消費者契約法」は不当な勧誘による契約の取消権などを規定。「金融サービスの提供に関する法律」は重要事項の説明義務などを規定。</li>
+<li><strong>経営破綻時の保護</strong>：健全性指標として「ソルベンシー・マージン比率」があり、200%が監督上の基準。万一破綻した場合は「生命保険契約者保護機構」が責任準備金の90%までを補償する。</li>
+</ul>
+</div>
+<div class="chapter">
+<h3 id="section-section7-1">7-1. 保険業法と監督行政</h3>
+<div class="question-block">
+<p class="question-title">［保険業法の概要について］</p>
+<div class="question-text">
+<p>次の文章のうち、正しいものを１つ選んでください。</p>
+<p>ア．保険業法には、公法規定である行政的監督規定と私法規定である保険事業を営む者の組織および業務活動に関する規定とが混在している。</p>
+<p>イ．保険業法の目的は、保険業を行う者の業務の健全かつ適切な運営および保険募集の公正を確保することにより、保険業を行う者の保護を図り、国民生活の安定・国民経済の健全な発展に資することにある。</p>
+<p>ウ．保険業法により保険会社の行う業務は、固有業務、付随業務、法定他業の３つと定められているが、保険会社の子会社については、特に業務範囲は制限されていない。</p>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong> ア
+                            </div>
+<div class="explanation">
+<h5>解説</h5>
+<ul>
+<li><strong>ア（正しい）</strong>：記述の通り、保険業法は、金融庁による監督などに関する<strong>公法的な規定</strong>と、相互会社の組織運営などに関する<strong>私法的な規定</strong>が一体となった法律です。</li>
+<li><strong>イ（誤り）</strong>：保険業法の目的は、「保険業を行う者」の保護ではなく、「<strong>保険契約者等</strong>」の保護です。目的条文（第1条）の主語を取り違えています。</li>
+<li><strong>ウ（誤り）</strong>：保険会社の子会社（保険子会社）が営むことができる業務も、保険業法によって<strong>厳しく制限されています</strong>。これは、子会社の経営不振が親会社である保険会社の経営に悪影響を及ぼし、契約者保護に支障をきたすことを防ぐためです。</li>
+</ul>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2022年度 フォームA 問24</span>
+</div>
+<div class="question-block">
+<p class="question-title">［生命保険業の監督の方法］</p>
+<div class="question-text">
+<p>次の文章について、下線部ＡまたはＢのいずれかが誤っている場合と、Ａ・Ｂともに正しい場合とがあります。ＡまたはＢのいずれかが誤っている場合は、誤っている記号と代わって入るものが最も適切な組み合わせを選択してください。Ａ・Ｂともに正しい場合は、記号Ｃを選択してください。</p>
+<p>国家による保険監督の方法のうち(A)<u>実体的監督主義</u>は、監督官庁に広範な権限を与えて、保険事業の開始から業務運営、そして経営不振会社に対する最終的整理、統合に至る事業経営のあらゆる段階において監督を行うものであり、日本ではこの方式が採られている。なお、日本の保険業監督の主務大臣は内閣総理大臣および(B)<u>総務大臣</u>である。</p>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong> エ．Ｂ－財務大臣
+                            </div>
+<div class="explanation">
+<h5>解説</h5>
+<ul>
+<li><strong>(A) 実体的監督主義</strong>：正しい。日本の保険監督は、事業のあらゆる段階で行政（金融庁）が実質的な監督・指導を行う「実体的監督主義」を採用しています。これに対し、一定のルールを定めてその遵守を監督するだけの「形式的監督主義」もあります。</li>
+<li><strong>(B) 総務大臣</strong>：誤り。日本の保険業の監督を行う主務大臣は、<strong>内閣総理大臣</strong>です。ただし、その権限の多くは<strong>金融庁長官</strong>に委任されています。また、保険会社の破綻処理など金融システムの安定に関わる事項については、<strong>財務大臣</strong>との協議が必要とされています。したがって、ここに入るべきは「財務大臣」が最も適切です。（※2022年度の解答では「財務大臣」が正解とされています）</li>
+</ul>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2022年度 フォームA, B, C 問48</span>
+</div>
+</div>
+<div class="chapter">
+<h3 id="section-section7-2">7-2. 保険募集と関連法規</h3>
+<div class="question-block">
+<p class="question-title">［保険募集と監督法－①］</p>
+<div class="question-text">
+<p>文中の空欄［ １ ］～［ ５ ］に入る最も適切なものを選んでください。</p>
+<p>生命保険会社にとって事業の発展のために新契約の募集は不可欠のものであるが、募集活動を規律するため、保険業法で次のような規制が設けられている。</p>
+<ul>
+<li>生命保険募集人は、［ １ ］の登録を受けなければならない。</li>
+<li>生命保険募集人は、原則として、複数の生命保険会社の［ ２ ］を受けて募集を行ってはならない。</li>
+<li>保険契約の締結又は保険募集に関する［ ３ ］。</li>
+<li>保険会社は保険募集に際して、重要な事項の顧客への説明、顧客情報の適正な取扱い、第三者に［ ２ ］する業務の的確な遂行を確保するための措置を講じなければならない。</li>
+</ul>
+<p>その他、国際的な整合性の確保、［ ４ ］の多様化、競争促進による利用者利便の向上を図る観点から、契約者と保険会社の間に立って中立の立場で保険契約の媒介を行う［ ５ ］制度が導入されている。</p>
+<div class="word-group">
+<table>
+<tr><td>ア． 販売チャネル</td><td>イ． 教唆行為</td></tr>
+<tr><td>ウ． 保険ブローカー（保険仲立人）</td><td>エ． 委託</td></tr>
+<tr><td>オ． 財務大臣</td><td>カ． オウン・エージェント</td></tr>
+<tr><td>キ． 内閣総理大臣</td><td>ク． 比較情報</td></tr>
+<tr><td>ケ． 受託</td><td>コ． 禁止行為</td></tr>
+</table>
+</div>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong><br/>
+                                ［ １ ］：キ．内閣総理大臣<br/>
+                                ［ ２ ］：エ．委託<br/>
+                                ［ ３ ］：コ．禁止行為<br/>
+                                ［ ４ ］：ア．販売チャネル<br/>
+                                ［ ５ ］：ウ．保険ブローカー（保険仲立人）
+                            </div>
+<div class="explanation">
+<h5>完成した文章</h5>
+<ul>
+<li>生命保険募集人は、<strong>内閣総理大臣</strong>の登録を受けなければならない。</li>
+<li>生命保険募集人は、原則として、複数の生命保険会社の<strong>委託</strong>を受けて募集を行ってはならない。</li>
+<li>保険契約の締結又は保険募集に関する<strong>禁止行為</strong>。</li>
+<li>保険会社は保険募集に際して、重要な事項の顧客への説明、顧客情報の適正な取扱い、第三者に<strong>委託</strong>する業務の的確な遂行を確保するための措置を講じなければならない。</li>
+</ul>
+<p>その他、国際的な整合性の確保、<strong>販売チャネル</strong>の多様化、競争促進による利用者利便の向上を図る観点から、契約者と保険会社の間に立って中立の立場で保険契約の媒介を行う<strong>保険ブローカー（保険仲立人）</strong>制度が導入されている。</p>
+<h5>解説</h5>
+<ul>
+<li><strong>［ １ ］内閣総理大臣</strong>：生命保険募集人の登録は、内閣総理大臣（実務上は各財務局）に対して行います。</li>
+<li><strong>［ ２ ］委託</strong>：募集人は保険会社から募集業務の「委託」を受けて活動します。原則として一社専属（一社からのみ委託を受ける）とされています。</li>
+<li><strong>［ ３ ］禁止行為</strong>：保険業法第300条では、不適切な募集行為（虚偽説明、不当な乗換募集など）を具体的に列挙し、禁止しています。</li>
+<li><strong>［ ４ ］販売チャネル</strong>：保険が販売される経路（営業職員、代理店、銀行窓販、通信販売など）のこと。</li>
+<li><strong>［ ５ ］保険ブローカー（保険仲立人）</strong>：保険会社から独立し、顧客（保険契約者）の代理人として、最適な保険契約の締結を仲介する専門家です。</li>
+</ul>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2023年度 フォームC 問1-5</span>
+</div>
+</div>
+<div class="chapter">
+<h3 id="section-section7-3">7-3. 消費者保護制度</h3>
+<div class="question-block">
+<p class="question-title">［消費者契約法］</p>
+<div class="question-text">
+<p>次の文章について、正しい場合には「正」、誤っている場合には「誤」を選んでください。</p>
+<p>2001 年（平成13 年）から施行された「消費者契約法」では、顧客への重要事項の説明と勧誘方針の策定･公表の義務付けや、不当な契約条項の無効等を定めることにより消費者保護を図っている。</p>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong> 誤
+                            </div>
+<div class="explanation">
+<h5>解説</h5>
+<p>この文章は、異なる法律の内容を混同しています。</p>
+<ul>
+<li><strong>消費者契約法</strong>：事業者の不当な勧誘（不実告知、断定的判断の提供など）による契約の<strong>取消権</strong>や、消費者の利益を一方的に害する不当な契約条項の<strong>無効</strong>などを定めています。</li>
+<li><strong>金融商品の販売等に関する法律（現：金融サービスの提供に関する法律）</strong>：金融商品販売業者に対して、顧客への<strong>重要事項の説明義務</strong>や、<strong>勧誘方針の策定・公表義務</strong>などを課しています。</li>
+</ul>
+<p>問題文は、「消費者契約法」の説明として、「金融商品の販売等に関する法律」の内容である「重要事項の説明と勧誘方針の策定・公表の義務付け」を含んでいるため、誤りとなります。</p>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2022年度 フォームC 問38</span>
+</div>
+</div>
+<div class="chapter">
+<h3 id="section-section7-4">7-4. 生命保険会社の経営破綻と契約者保護</h3>
+<div class="question-block">
+<p class="question-title">［生命保険契約者保護機構］</p>
+<div class="question-text">
+<p>次の文章について、下線部ＡまたはＢのいずれかが誤っている場合と、Ａ・Ｂともに正しい場合とがあります。ＡまたはＢのいずれかが誤っている場合は、誤っている記号と代わって入るものが最も適切な組み合わせを選択してください。Ａ・Ｂともに正しい場合は、記号Ｃを選択してください。</p>
+<p>金融システム改革法の成立により、生命保険契約者保護機構が1998 年（平成10 年）に発足した。生命保険会社の破綻が生じた場合、契約者は責任準備金の(A)<u>90％</u>が補償されるが、生命保険契約者保護機構の財源は、(B)<u>日銀特融</u>が基本となっている。</p>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong> エ．Ｂ－生命保険会社各社の拠出
+                            </div>
+<div class="explanation">
+<h5>解説</h5>
+<ul>
+<li><strong>(A) 90％</strong>：正しい。生命保険会社が破綻した場合、生命保険契約者保護機構により、破綻時点の<strong>責任準備金等の90%</strong>までが補償されます（高予定利率契約については、さらに削減される可能性があります）。</li>
+<li><strong>(B) 日銀特融</strong>：誤り。生命保険契約者保護機構の財源は、<strong>生命保険会社各社が拠出する負担金</strong>によって賄われています。平時から積み立てられており、破綻発生時に不足が生じた場合は、業界全体で追加の負担金を拠出する仕組みです。「日銀特融」は銀行の破綻処理などで用いられる手法であり、ここでは不適切です。</li>
+</ul>
+<p>したがって、(B)を「生命保険会社各社の拠出」に訂正するのが正しいです。</p>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2022年度 フォームC 問46</span>
+</div>
+<div class="question-block">
+<p class="question-title">［早期是正措置制度］</p>
+<div class="question-text">
+<p>次の文章について、下線部ＡまたはＢのいずれかが誤っている場合と、Ａ・Ｂともに正しい場合とがあります。ＡまたはＢのいずれかが誤っている場合は、誤っている記号と代わって入るものが最も適切な組み合わせを選択してください。Ａ・Ｂともに正しい場合は、記号Ｃを選択してください。</p>
+<p>早期是正措置制度は、保険会社の保険金支払い能力に関し導入された制度で、内閣総理大臣はいわゆるソルベンシー・マージン比率が(A)<u>150％</u>未満の会社について、各区分毎に是正措置を命じることができる。ソルベンシー・マージン比率は、保険会社が直面している通常の予測を超える諸リスク相当額の(B)<u>１／２</u>を分母とし、保険会社の自己資本勘定と考えられる資本勘定、諸準備金などの合計額を分子として計算される。</p>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong> イ．Ａ－ 200 ％
+                            </div>
+<div class="explanation">
+<h5>解説</h5>
+<p>保険会社の健全性を示す指標であるソルベンシー・マージン比率と、それに基づく早期是正措置に関する問題です。</p>
+<ul>
+<li><strong>(A) 150％</strong>：誤り。監督上の健全性の基準は<strong>200%</strong>です。ソルベンシー・マージン比率が<strong>200%を下回った</strong>場合に、金融庁は保険会社に対して早期是正措置（経営改善計画の提出命令など）を発動することができます。</li>
+<li><strong>(B) １／２</strong>：正しい。ソルベンシー・マージン比率の計算式は以下の通りです。<br/>
+<strong>比率 = (ソルベンシー・マージン総額) ÷ (リスクの合計額 × 1/2) × 100</strong><br/>
+                                    分母のリスク額が1/2で計算されるのは、通常考えられる範囲のリスクは責任準備金でカバーされるという考え方に基づいています。</li>
+</ul>
+<p>したがって、(A)を「200%」に訂正するのが正しいです。</p>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2022年度 フォームC 問47</span>
+</div>
+</div>
+<h2 id="section-chapter8">第8章 諸外国の生命保険事業</h2>
+<div class="chapter-summary">
+<h3>この章のまとめ</h3>
+<ul>
+<li><strong>イギリスの保険史</strong>：世界初の科学的生命保険会社は、1762年に設立された「エクイタブル生命」。年齢別の死亡率に基づき、公平な保険料（平準保険料）を算出した点が画期的だった。</li>
+<li><strong>アメリカの保険史</strong>：エリザ・ライトは「法定責任準備金」と「不没収法」の制定に尽力し、契約者保護と業界の健全化に貢献。「アメリカ生命保険の父」と呼ばれる。</li>
+<li><strong>アームストロング調査</strong>：20世紀初頭、大手生保の経営問題を調査し、その勧告に基づきニューヨーク州で厳しい監督法が制定された。新契約高の制限や、約款に「払込猶予期間」「不可争期間」を設けることなどが義務付けられた。</li>
+<li><strong>ニューウェーブ商品</strong>：1970～80年代のアメリカでは、金利変動に対応した「ユニバーサル保険」や「変額ユニバーサル保険」など、柔軟性の高い新商品が開発された。</li>
+</ul>
+</div>
+<div class="chapter">
+<h3 id="section-section8-1">8-1. イギリスの保険史</h3>
+<div class="question-block">
+<p class="question-title">［科学的な生命保険会社］</p>
+<div class="question-text">
+<p>次の文章について、正しい場合には「正」、誤っている場合には「誤」を選んでください。</p>
+<p>ジェームス・ドドソンによって考案された平準保険料方式を採用した科学的な生命保険会社の設立は、当時の人々の理解を得られず失敗に終わったが、彼の死後５年経って、彼の遺志を受け継いだ人々によって1762 年に世界で最初の科学的な生命保険会社ロイヤル・エクスチェンジが設立された。</p>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong> 誤
+                            </div>
+<div class="explanation">
+<h5>解説</h5>
+<p>文章の大部分は正しいですが、設立された会社名が誤っています。</p>
+<ul>
+<li>ジェームス・ドドソンが年齢別の死亡率に基づいた平準保険料方式を考案したことは正しいです。</li>
+<li>彼の死後、その遺志を継いだ人々によって1762年に世界初の科学的な生命保険会社が設立されたことも正しいです。</li>
+<li>しかし、その会社名は「ロイヤル・エクスチェンジ」ではなく、「<strong>エクイタブル生命保険相互会社（The Equitable Life Assurance Society）</strong>」です。</li>
+</ul>
+<p>ロイヤル・エクスチェンジは、エクイタブル設立以前から存在した保険会社ですが、科学的な保険料算出を行っていなかったため、この文脈では不適切です。</p>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2022年度 フォームA, B, C 問33</span>
+</div>
+<div class="question-block">
+<p class="question-title">［賦課式保険］</p>
+<div class="question-text">
+<p>次の文章のうち、誤っているものを１つ選んでください。</p>
+<p>ア．火災保険の場合、火災の発生率は、毎年著しく異なることはなく、分担金の払込人数もあまり変動しない。したがって、毎年の分担金は同額でよいことになる。</p>
+<p>イ．賦課式の生命保険では、年を経るにつれ死亡率が高くなるので、給付金を一定にすれば、分担金が年々減少し、一方、分担金を一定にすれば、給付金が増加することになる。</p>
+<p>ウ．人間の死亡率は年をとるにしたがって上昇するものであるが、17 世紀後半以降の賦課式の保険組合や会社では、この原則が理解されておらず、若年者も高齢者も同額の分担金を払い込むこととしたところに問題があった。</p>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong> イ
+                            </div>
+<div class="explanation">
+<h5>解説</h5>
+<p>賦課方式の生命保険における保険料（分担金）と給付金の関係についての問題です。</p>
+<ul>
+<li><strong>ア（正しい）</strong>：火災保険のような損害保険では、事故発生率が比較的安定しているため、賦課方式でも運営しやすい側面があります。</li>
+<li><strong>イ（誤り）</strong>：記述が逆になっています。賦課式の生命保険では、加入者の年齢が上がるにつれて死亡率が高くなります。
+                                        <ul>
+<li>給付金を一定にする場合、必要な財源が増えるため、一人当たりの<strong>分担金は年々増加</strong>します。</li>
+<li>分担金を一定にする場合、財源が同じなので、死亡者が増えると一人当たりの<strong>給付金は年々減少</strong>します。</li>
+</ul>
+                                        「分担金が年々減少し」「給付金が増加する」という部分が誤りです。
+                                    </li>
+<li><strong>ウ（正しい）</strong>：初期の賦課式生命保険組合（例：アミカブル・ソサエティー）は、年齢に関係なく一律の保険料（分担金）を徴収していました。これにより、若年者にとっては割高、高齢者にとっては割安となり、若年者の脱退と高齢者の加入希望増を招き、制度が破綻する原因となりました。</li>
+</ul>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2022年度 フォームA, B, C 問28</span>
+</div>
+</div>
+<div class="chapter">
+<h3 id="section-section8-2">8-2. アメリカの保険史と金融革命</h3>
+<div class="question-block">
+<p class="question-title">［エリザ・ライト］</p>
+<div class="question-text">
+<p>次の文章について、下線部ＡまたはＢのいずれかが誤っている場合と、Ａ・Ｂともに正しい場合とがあります。ＡまたはＢのいずれかが誤っている場合は、誤っている記号と代わって入るものが最も適切な組み合わせを選択してください。Ａ・Ｂともに正しい場合は、記号Ｃを選択してください。</p>
+<p>保険監督官であったエリザ・ライトが「アメリカ生命保険の父」と呼ばれるのは、(A)<u>法定責任準備金法</u>を制定させて生命保険会社の保険金支払の基礎を確立するとともに、(B)<u>不没収法</u>によって生命保険が長い契約期間中の経済的問題の解決策としても役立つという一大変革を行い、生命保険契約者の利益を確保したからである。</p>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong> オ．Ｃ（Ａ・Ｂともに正しい）
+                            </div>
+<div class="explanation">
+<h5>解説</h5>
+<p>この文章は、「アメリカ生命保険の父」と称されるエリザ・ライトの功績を正しく説明しています。</p>
+<ul>
+<li><strong>(A) 法定責任準備金法</strong>：正しい。エリザ・ライトは、保険会社に対して、将来の保険金支払いに備えるための責任準備金を法的に積み立てることを義務付ける法律の制定に尽力しました。これにより、保険会社の財務基盤が強化され、支払能力が確保されました。</li>
+<li><strong>(B) 不没収法</strong>：正しい。保険料の支払いが滞って契約が失効した場合でも、それまでに積み立てられた責任準備金を没収せず、解約返戻金として契約者に返還したり、一時払の延長保険に変更したりすることを義務付ける法律です。これにより、契約者の権利が大きく保護されるようになりました。</li>
+</ul>
+<p>これら2つの法律の制定は、アメリカの生命保険事業の健全な発展と契約者保護に大きく貢献しました。</p>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2022年度 フォームC 問45</span>
+</div>
+<div class="question-block">
+<p class="question-title">［アメリカにおけるアームストロング調査について］</p>
+<div class="question-text">
+<p>次の文章のうち、正しいものを１つ選んでください。</p>
+<p>ア．1906 年、アームストロング調査委員会の勧告に基づき、予定利率と年間の新契約高を制限するなどの内容の取締法がニューヨーク州で制定された。</p>
+<p>イ．1906 年、アームストロング調査委員会の勧고に基づき、会社の株主選出に関する基準を制定する内容の取締法がニューヨーク州で制定された。</p>
+<p>ウ．1906 年、アームストロング調査委員会の勧告に基づき、契約条項に保険料払込猶予期間と不可争期間の規定を設ける内容の取締法がニューヨーク州で制定された。</p>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong> ウ
+                            </div>
+<div class="explanation">
+<h5>解説</h5>
+<p>20世紀初頭のアメリカ生命保険業界に大きな影響を与えたアームストロング調査と、それに基づく法改正に関する問題です。</p>
+<ul>
+<li><strong>ア（誤り）</strong>：新契約高の制限は勧告に含まれましたが、「予定利率」の制限は主な内容ではありません。むしろ、過度な競争による経営の不健全化を防ぐため、新契約費や新契約高に上限を設けることが勧告されました。</li>
+<li><strong>イ（誤り）</strong>：アームストロング調査は、主に大手相互会社の経営陣による不正や資金の私的流用などを問題視したものであり、株式会社の「株主選出」が主眼ではありませんでした。</li>
+<li><strong>ウ（正しい）</strong>：アームストロング調査委員会の勧告に基づき制定されたニューヨーク州の取締法では、契約者保護の観点から、<strong>保険料払込猶予期間</strong>（保険料の支払いが遅れてもすぐに契約が失効しない期間）や<strong>不可争期間</strong>（契約から一定期間経過後は、告知義務違反などがあっても保険会社は契約を解除できない期間）といった、契約者に有利な条項を約款に盛り込むことが義務付けられました。</li>
+</ul>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2022年度 フォームA 問22</span>
+</div>
+<div class="question-block">
+<p class="question-title">［1970～80 年代のアメリカのニューウェーブ商品の開発］</p>
+<div class="question-text">
+<p>次の文章について、正しい場合には「正」、誤っている場合には「誤」を選んでください。</p>
+<p>アメリカで開発されたユニバーサル保険は、決済機能を持ち、死亡保障額に影響を与えることなくいつでもキャッシュ・バリューの引き出しが可能であり、また保険料の払込みが自由であるなど自在性があることなどから、有力商品となった。</p>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong> 誤
+                            </div>
+<div class="explanation">
+<h5>解説</h5>
+<p>ユニバーサル保険の特徴に関する記述ですが、一部不正確な点があります。</p>
+<p>ユニバーサル保険の主な特徴は以下の通りです。</p>
+<ul>
+<li>保険料の払込みが自由（フレキシブル・プレミアム）。</li>
+<li>死亡保障額を途中で変更可能。</li>
+<li>キャッシュ・バリュー（積立金部分）の一部引き出しが可能。</li>
+</ul>
+<p>しかし、「死亡保障額に影響を与えることなくいつでもキャッシュ・バリューの引き出しが可能」という部分が不正確です。キャッシュ・バリューを引き出すと、その分、死亡保険金額が減少するタイプ（オプションA）が一般的です。死亡保障額に影響を与えないタイプ（オプションB）もありますが、その場合は保険料が高くなります。したがって、「影響を与えることなく」と断定している点が誤りとなります。</p>
+<p>また、「決済機能を持つ」という表現も、銀行口座のような意味合いで使われているのであれば不適切です。一部引き出しが可能という柔軟性を指していると考えられますが、一般的な決済機能とは異なります。</p>
+<p>（※2022年度フォームAの解答では「誤」とされています。上記の理由によると考えられます。）</p>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2022年度 フォームA 問34</span>
+</div>
+</div>
+<h2 id="section-chapter9">第9章 共済・損害保険・その他</h2>
+<div class="chapter-summary">
+<h3>この章のまとめ</h3>
+<ul>
+<li><strong>共済と保険の違い</strong>：共済は特定の組合員を対象とし、根拠法（生協法、農協法など）が保険業法と異なる。生命・損害分野の兼営が可能な点が大きな特徴。</li>
+<li><strong>少額短期保険業</strong>：保険金額・保険期間が一定の範囲内に限定された保険のみを引き受ける事業形態。最低資本金が1,000万円と緩和されているが、保険業法に基づく厳しい監督下にある。</li>
+<li><strong>損害保険との比較</strong>：損害保険は、火災や事故などで生じた「実際の損害額」を補填する「実損てん補」が原則。一方、生命保険は人の生死に対し「あらかじめ定めた金額」を支払う「定額保険」である。</li>
+<li><strong>金融業界の動向</strong>：銀行等による保険販売（銀行窓販）は段階的に解禁され、2002年の「個人年金保険」の解禁を機に大きく拡大した。</li>
+</ul>
+</div>
+<div class="chapter">
+<h3 id="section-section9-1">9-1. 共済と保険</h3>
+<div class="question-block">
+<p class="question-title">［ＪＡ共済（全国共済農業協同組合連合会）］</p>
+<div class="question-text">
+<p>次の文章について、正しい場合には「正」、誤っている場合には「誤」を選んでください。</p>
+<p>ＪＡ共済（全国共済農業協同組合連合会）の取扱商品は、養老生命共済、終身共済、こども共済、医療共済などであり、大型保障性商品の販売に力を入れているのが特徴である。また、自動車共済、建物更生共済といった損害系の共済商品も取り扱っている。</p>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong> 正
+                            </div>
+<div class="explanation">
+<h5>解説</h5>
+<p>記述の通り、JA共済の特徴を正しく説明しています。</p>
+<ul>
+<li><strong>生命系共済</strong>：養老生命共済、終身共済、こども共済、医療共済など、民間生保と同様の幅広い商品ラインナップを持っています。特に大型の保障性商品の販売に力を入れています。</li>
+<li><strong>損害系共済</strong>：民間保険では認められていない生命保険と損害保険の兼営が、共済では可能です。JA共済も、自動車共済や建物更生共済（火災共済に相当）といった損害系の共済を取り扱っており、組合員の生活を総合的に保障する体制を築いています。</li>
+</ul>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2022年度 フォームA 問38</span>
+</div>
+<div class="question-block">
+<p class="question-title">［労働者共済］</p>
+<div class="question-text">
+<p>次の文章について、下線部ＡまたはＢのいずれかが誤っている場合と、Ａ・Ｂともに正しい場合とがあります。ＡまたはＢのいずれかが誤っている場合は、誤っている記号と代わって入るものが最も適切な組み合わせを選択してください。Ａ・Ｂともに正しい場合は、記号Ｃを選択してください。</p>
+<p>消費者・勤労者が協同してその生活を守る運動の一環として、職業別または地方別、あるいは労働組合単位に実施されているのが、(A)<u>消費生活協同組合法（生協法）</u>に基づく各種共済であるが、その中で、(B)<u>こくみん共済 coop〈全労済〉</u>は、労働者共済の全国組織であり、(A)<u>消費生活協同組合法（生協法）</u>による共済事業中最大の規模を誇っている。</p>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong> オ．Ｃ（Ａ・Ｂともに正しい）
+                            </div>
+<div class="explanation">
+<h5>解説</h5>
+<p>この文章は、労働者共済の根拠法と代表的な団体について正しく説明しています。</p>
+<ul>
+<li><strong>(A) 消費生活協同組合法（生協法）</strong>：正しい。こくみん共済 coop（全労済）や各都道府県民共済などは、消費生活協同組合法を根拠法として運営されています。</li>
+<li><strong>(B) こくみん共済 coop〈全労済〉</strong>：正しい。労働組合を母体として発展した全国組織の共済団体であり、生協法に基づく共済事業としては最大級の規模を持っています。</li>
+</ul>
+<p>したがって、A、Bともに正しい記述です。</p>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2022年度 フォームA 問49</span>
+</div>
+</div>
+<div class="chapter">
+<h3 id="section-section9-2">9-2. 少額短期保険業</h3>
+<div class="question-block">
+<p class="question-title">［少額短期保険業について］</p>
+<div class="question-text">
+<p>次の文章のうち、正しいものを１つ選んでください。</p>
+<p>ア．保険業法により規定される少額短期保険業は、短期（生保・医療保険で１年以内、損害保険で２年以内）かつ少額保険金額（疾病による死亡保険金500 万円以内、疾病・傷害による入院給付金等100 万円以内、損害保険金1,000 万円以内等）の保険のみを引き受ける保険業である。</p>
+<p>イ．少額短期保険業者には、1,500 万円以上の資本金と内閣総理大臣への登録が求められる。</p>
+<p>ウ．少額短期保険業者には、ディスクロージャーと責任準備金の積立てが義務付けられ、早期是正措置も適用されるなど、契約者保護の規制が課される。</p>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong> ウ
+                            </div>
+<div class="explanation">
+<h5>解説</h5>
+<p>2006年の保険業法改正で導入された少額短期保険業に関する問題です。</p>
+<ul>
+<li><strong>ア（誤り）</strong>：保険金額の上限が一部誤っています。正しくは、死亡保険金は<strong>300万円</strong>以内、疾病・傷害による入院給付金等は<strong>80万円</strong>以内です。（損害保険金1,000万円以内、保険期間の規定は正しい）</li>
+<li><strong>イ（誤り）</strong>：資本金（または基金）の最低額が誤っています。正しくは<strong>1,000万円</strong>以上です。</li>
+<li><strong>ウ（正しい）</strong>：記述の通りです。少額短期保険業者は、通常の保険会社と同様に、財務状況を開示する<strong>ディスクロージャー</strong>、将来の支払いに備える<strong>責任準備金の積立て</strong>、健全性をチェックする<strong>早期是正措置（ソルベンシー・マージン比率の監督）</strong>など、契約者保護のための厳しい規制下に置かれています。</li>
+</ul>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2022年度 フォームA 問25</span>
+</div>
+</div>
+<div class="chapter">
+<h3 id="section-section9-3">9-3. 損害保険</h3>
+<div class="question-block">
+<p class="question-title">［損害保険］</p>
+<div class="question-text">
+<p>次の文章について、正しい場合には「正」、誤っている場合には「誤」を選んでください。</p>
+<p>損害保険とは、保険事故に関し、一定の保険給付を行うもの、すなわち、あらかじめ約定された保険金額が支払われる保険をいう。</p>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong> 誤
+                            </div>
+<div class="explanation">
+<h5>解説</h5>
+<p>この文章は、損害保険ではなく<strong>生命保険（定額保険）</strong>の定義を説明しています。</p>
+<ul>
+<li><strong>損害保険</strong>：保険事故によって生じた<strong>実際の損害額</strong>に応じて保険金が支払われる保険です。これを<strong>実損てん補の原則</strong>といいます。支払われる保険金は、契約した保険金額を上限として、実際の損害額を超えません。</li>
+<li><strong>生命保険（定額保険）</strong>：人の生死という保険事故に対し、契約時に<strong>あらかじめ定められた一定の金額（保険金額）</strong>が支払われる保険です。実際の損害額とは関係なく、定額が支払われます。</li>
+</ul>
+<p>したがって、記述は誤りです。</p>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2022年度 フォームA 問39</span>
+</div>
+</div>
+<div class="chapter">
+<h3 id="section-section9-4">9-4. 金融業界の動向（銀行・証券）</h3>
+<div class="question-block">
+<p class="question-title">［銀行による保険販売］</p>
+<div class="question-text">
+<p>次の文章について、下線部ＡまたはＢのいずれかが誤っている場合と、Ａ・Ｂともに正しい場合とがあります。ＡまたはＢのいずれかが誤っている場合は、誤っている記号と代わって入るものが最も適切な組み合わせを選択してください。Ａ・Ｂともに正しい場合は、記号Ｃを選択してください。</p>
+<p>銀行による保険販売については、2001 年（平成13 年）４月、住宅ローン関連の信用生命保険と(A)<u>長期火災保険</u>等の販売からスタートしたが、2002年（平成14 年）10 月に(B)<u>第三分野商品</u>の販売が認められたことを受け、一気に販売額が急増した。</p>
+</div>
+<details>
+<summary>解答・解説を見る</summary>
+<div class="answer-explanation">
+<div class="correct-answer">
+<strong>正解:</strong> ウ．Ｂ－個人年金
+                            </div>
+<div class="explanation">
+<h5>解説</h5>
+<p>銀行窓口での保険販売（銀行窓販）の解禁ステップに関する問題です。</p>
+<ul>
+<li><strong>(A) 長期火災保険</strong>：正しい。2001年4月の第1次解禁では、住宅ローン関連の団体信用生命保険や長期火災保険など、ローンに関連する商品から販売が始まりました。</li>
+<li><strong>(B) 第三分野商品</strong>：誤り。2002年10月の第2次解禁で販売が認められ、販売額急増のきっかけとなったのは<strong>個人年金保険</strong>です。第三分野商品（医療保険・がん保険など）の販売が解禁されたのは、さらに後の2005年12月（第3次解禁）です。</li>
+</ul>
+<p>したがって、(B)を「個人年金」に訂正するのが正しいです。</p>
+</div>
+</div>
+</details>
+<span class="source-ref">出典: 2022年度 フォームB 問49</span>
+</div>
+</div>
+</main>
+<footer>
+</footer>
+</div>
+</body>
+</html>
